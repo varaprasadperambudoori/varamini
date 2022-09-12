@@ -6,7 +6,11 @@
 
     <groupId>com.nisum</groupId>
     <artifactId>vara-mini</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>AhmedRestAssured</module>
+    </modules>
 
     <dependencies>
         <dependency>
