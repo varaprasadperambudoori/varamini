@@ -9,12 +9,12 @@ import java.util.Scanner;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-public class txtToJson {
+public class elizabethTxtToJson {
 	public static void main(String[] args) {
 		
 	  	JSONParser jsonParser = new JSONParser();
 	  
-	  	File fileTXT = new File("/Users/elizabeth/Desktop/data.txt");
+	  	File fileTXT = new File("/Users/elizabeth/nisum-selenium-workspace/varamini/src/main/resources/elizabethInputTxt.txt");
 
 		try {
 			JSONObject object = (JSONObject) jsonParser.parse(new FileReader(fileTXT));
