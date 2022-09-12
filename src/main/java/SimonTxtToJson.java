@@ -11,7 +11,7 @@ import java.net.URL;
 import java.util.ArrayList;
 
 
-public class App {
+public class SimonTxtToJson {
     public static void convertToJson(String filename){
         JSONObject json;
         StringBuilder jsonTxtFile;
@@ -96,7 +96,7 @@ public class App {
             System.out.println(str);
         }
         try{
-            new App().convertJsonToJava(inputJson.toURI().toURL(),outputDirectory,packageName,className);
+            new SimonTxtToJson().convertJsonToJava(inputJson.toURI().toURL(),outputDirectory,packageName,className);
         }catch (Exception e){
             e.printStackTrace();
         }
