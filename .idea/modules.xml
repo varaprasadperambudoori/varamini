@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SimonWuRestAssured/SimonWuRestAssured.iml" filepath="$PROJECT_DIR$/SimonWuRestAssured/SimonWuRestAssured.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/varamini.iml" filepath="$PROJECT_DIR$/.idea/varamini.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ahmed1/Ahmed1.iml" filepath="$PROJECT_DIR$/Ahmed1/Ahmed1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/than/than.iml" filepath="$PROJECT_DIR$/than/than.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thanhquan/thanhquan.iml" filepath="$PROJECT_DIR$/thanhquan/thanhquan.iml" />
     </modules>
   </component>
 </project>
