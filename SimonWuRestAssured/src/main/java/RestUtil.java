@@ -8,4 +8,5 @@ publc class RestUtil{
     public Response setURL(String uri){
         RestAssured.baseURI = uri;
     }
+
 }
