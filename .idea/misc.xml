@@ -7,8 +7,21 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ahmad/pom.xml" />
+        <option value="$PROJECT_DIR$/alex/pom.xml" />
+        <option value="$PROJECT_DIR$/elizabeth/pom.xml" />
+        <option value="$PROJECT_DIR$/jiayue/pom.xml" />
+        <option value="$PROJECT_DIR$/joshua/pom.xml" />
+        <option value="$PROJECT_DIR$/ming/pom.xml" />
+        <option value="$PROJECT_DIR$/simon/RestAssured/pom.xml" />
+        <option value="$PROJECT_DIR$/than/pom.xml" />
+        <option value="$PROJECT_DIR$/zeeshan/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="18" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="18" project-jdk-type="JavaSDK" />
   <component name="ProjectType">
     <option name="id" value="jpab" />
   </component>
