@@ -23,7 +23,7 @@ public class AlexTextToJson {
     public static void writeToJsonPretty(String fileName){
         //Create new File if file does not exist
         try{
-            File file = new File("jsonData.json");
+            File file = new File("alex/src/main/resources/jsonData.json");
             if(file.exists()) {
                 file.delete();
             }
@@ -47,7 +47,7 @@ public class AlexTextToJson {
     }
 
     public static void main(String[] args) throws IOException {
-        String textFile = readFile("C:\\Users\\Vuong\\IdeaProjects\\varamini\\src\\main\\resources\\AlexInputText");
+        String textFile = readFile("alex/src/main/resources/AlexInputText");
         writeToJsonPretty(textFile);
     }
 }
