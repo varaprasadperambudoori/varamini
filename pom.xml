@@ -15,10 +15,11 @@
         <module>than</module>
         <module>simon</module>
         <module>alex</module>
-        <module>jiayue</module>
+        <module></module>
         <module>ahmad</module>
         <module>zeeshan</module>
         <module>simrah</module>
+        <module>jiayue</module>
     </modules>
 
     <properties>
