@@ -6,7 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="vara-mini" />
+        <module name="jiayue" />
+        <module name="elizabeth" />
+        <module name="alex" />
+        <module name="simon" />
+        <module name="ming" />
+        <module name="than" />
+        <module name="zeeshan" />
+        <module name="jaushua" />
+        <module name="ahmad" />
       </profile>
     </annotationProcessing>
   </component>
