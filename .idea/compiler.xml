@@ -8,12 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jiayue" />
         <module name="elizabeth" />
-        <module name="simon" />
         <module name="alex" />
+        <module name="simon" />
         <module name="ming" />
         <module name="than" />
         <module name="zeeshan" />
-        <module name="simrah" />
         <module name="jaushua" />
         <module name="ahmad" />
       </profile>
