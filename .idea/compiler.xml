@@ -13,9 +13,7 @@
         <module name="ming" />
         <module name="than" />
         <module name="zeeshan" />
-        <module name="vara-mini" />
-        <module name="ahmad" />
-        <module name="jaushua" />
+        
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
