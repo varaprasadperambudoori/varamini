@@ -45,11 +45,11 @@ public class RestUtil{
         Response res = RestAssured.given()
                 .contentType(ContentType.JSON)
                 .post("program");
-        LOGGER.info(res.then().log().all());
+        LOGGER.info(res.getBody().prettyPrint());
     }
     public void getProgramSource(String token){
         Response res = RestAssured.given().get("program/"+token);
-        LOGGER.info(res.then().log().all());
+        LOGGER.info(res.getBody().prettyPrint());
 
     }
 
