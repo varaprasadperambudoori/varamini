@@ -29,7 +29,7 @@ public class SimonTxtToJson {
             //System.out.println("txt file read: \n"+jsonTxtFile);
             json = new JSONObject(jsonTxtFile.toString());
             System.out.println("jsonobject:\n"+json);
-            FileWriter writer = new FileWriter("src/main/resources/newFile.json");
+            FileWriter writer = new FileWriter("simon/txtToJson/src/main/resources/newFile.json");
             writer.write(json.toString());
             writer.flush();
             buff.close();
@@ -85,11 +85,11 @@ public class SimonTxtToJson {
         ArrayList<String> answer = new ArrayList<>();
         String packageName="com.jsonclass";
 
-        File inputJson = new File("src/main/resources/newFile.json");
-        File outputDirectory = new File("."+File.separator+"convertedPojo");
+        File inputJson = new File("txtToJson/src/main/resources/newFile.json");
+        File outputDirectory = new File("txtToJson/convertedPojo");
         outputDirectory.mkdirs();
         String className =inputJson.getName().replace(".json","");
-        convertToJson("src/main/resources/file.txt");
+        convertToJson("simon/txtToJson/src/main/resources/file.txt");
         /*countParentheses(3,"",answer);
         for(String str:answer){
             System.out.println(str);
