@@ -11,7 +11,7 @@ public class convertToJson {
     public static void main(String a[]){
 
         try {
-            File jsonInputFile = new File("/Users/simrahhussain/IdeaProjects/convertingJsonNisum/src/main/textToJson.txt");
+            File jsonInputFile = new File("/Users/simrahhussain/IdeaProjects/convertingJsonNisum/convertToJson.src/main/textToJson.txt");
             ObjectMapper mapper = new ObjectMapper();
             driversCarsPOJO dc = mapper.readValue(jsonInputFile, driversCarsPOJO.class);
             mapper.writeValue(Paths.get("txtToJson.json").toFile(), dc);

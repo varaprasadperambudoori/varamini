@@ -11,12 +11,14 @@
         <module name="simon" />
         <module name="alex" />
         <module name="ming" />
-        <module name="than" />
         <module name="zeeshan" />
         <module name="simrah" />
         <module name="jaushua" />
         <module name="ahmad" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="than" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

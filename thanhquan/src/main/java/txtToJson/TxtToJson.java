@@ -19,13 +19,13 @@ public class TxtToJson {
 
         String str = new String(Files.readAllBytes(path));
 
-        Files.write(Paths.get("thanhquan\\src\\main\\resources\\output.json"), mapper.writerWithDefaultPrettyPrinter().writeValueAsBytes(mapper.readTree(str)));
+        Files.write(Paths.get("thanhquan\\convertToJson.src\\main\\resources\\output.json"), mapper.writerWithDefaultPrettyPrinter().writeValueAsBytes(mapper.readTree(str)));
         System.out.println("Output from json file: ");
         System.out.println(str);
 
     }
     public static void main(String[] args) throws IOException {
-        String txtToJSON = "thanhquan\\src\\main\\resources\\data.txt";
+        String txtToJSON = "thanhquan\\convertToJson.src\\main\\resources\\data.txt";
         txtToJSON(txtToJSON);
     }
 }
