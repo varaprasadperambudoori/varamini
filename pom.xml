@@ -6,7 +6,19 @@
 
     <groupId>org.example</groupId>
     <artifactId>convertingJsonNisum</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>jaushua</module>
+        <module>ming</module>
+        <module>elizabeth</module>
+        <module>than</module>
+        <module>simon</module>
+        <module>alex</module>
+        <module>jiayue</module>
+        <module>ahmad</module>
+        <module>zeeshan</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
