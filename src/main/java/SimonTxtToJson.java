@@ -20,7 +20,6 @@ public class SimonTxtToJson {
             String line = buff.readLine();
             //System.out.println(line);
             jsonTxtFile = new StringBuilder();
-            String[] arr;
             do {
                 jsonTxtFile.append(line);
                 jsonTxtFile.append("\n");
