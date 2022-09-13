@@ -1,0 +1,10 @@
+[INFO ] 2022-09-12 18:22:18.969 [main] SandboxTest - Setup base uri
+[INFO ] 2022-09-12 18:22:20.224 [main] SandboxTest - Pass createProgramSource
+Status Code : 201 Payload: {
+    "name": "Program Mini",
+    "active": true,
+    "token": "f357bccd-db47-4bd4-89dc-8d71196de4dc",
+    "created_time": "2022-09-13T01:22:21Z",
+    "last_modified_time": "2022-09-13T01:22:21Z",
+    "account": "12.003.001.000000"
+}
