@@ -6,8 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jiayue" />
+        <module name="elizabeth" />
+        <module name="simon" />
+        <module name="alex" />
+        <module name="ming" />
+        <module name="than" />
+        <module name="zeeshan" />
         <module name="vara-mini" />
+        <module name="ahmad" />
+        <module name="jaushua" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="src" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
