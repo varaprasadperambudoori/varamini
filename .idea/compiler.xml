@@ -7,14 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jiayue" />
-        <module name="txttojson" />
         <module name="elizabeth" />
         <module name="simon" />
         <module name="alex" />
         <module name="ming" />
         <module name="than" />
-        <module name="varamini" />
         <module name="zeeshan" />
+        <module name="simrah" />
         <module name="jaushua" />
         <module name="ahmad" />
       </profile>
