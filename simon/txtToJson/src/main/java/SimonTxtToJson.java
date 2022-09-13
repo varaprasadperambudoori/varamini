@@ -90,11 +90,11 @@ public class SimonTxtToJson {
         outputDirectory.mkdirs();
         String className =inputJson.getName().replace(".json","");
         convertToJson("simon/txtToJson/src/main/resources/file.txt");
-        /*countParentheses(3,"",answer);
+        countParentheses(3,"",answer);
         for(String str:answer){
             System.out.println(str);
         }
-        try{
+       /* try{
             new SimonTxtToJson().convertJsonToJava(inputJson.toURI().toURL(),outputDirectory,packageName,className);
         }catch (Exception e){
             e.printStackTrace();
