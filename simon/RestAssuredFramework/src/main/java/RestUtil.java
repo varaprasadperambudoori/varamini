@@ -17,13 +17,24 @@ public class RestUtil{
     private final Logger LOGGER = LogManager.getLogger(RestUtil.class);
     public ObjectMapper mapper = new ObjectMapper();
     private String token;
+    private RequestSpecification request;
+    private String username,password;
 
-    public RequestSpecification given(String uri){
+    public RestUtil given(String uri){
         RestAssured.baseURI = uri;
         LOGGER.info("the baseURI is "+uri);
-        RequestSpecification request = RestAssured.given();
-        return request;
+        request = RestAssured.given().auth().basic(username,password);
+        return this;
     }
+    public void login(String user,String pass){
+        this.username = user;
+        this.password = pass;
+    }
+    public  void logout(){
+        this.username = "";
+        this.password="";
+    }
+
     public void addPayloadFile(RequestSpecification req, File file){
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
         JsonNode json=null;
@@ -42,15 +53,15 @@ public class RestUtil{
     public void createProgram(String name){
         JSONObject json = new JSONObject();
         json.put("name",name);
-        Response res = RestAssured.given()
-                .contentType(ContentType.JSON)
+        Response res = request.contentType(ContentType.JSON)
                 .post("program");
+        //TODO set token
+
         LOGGER.info(res.getBody().prettyPrint());
     }
     public void getProgramSource(String token){
-        Response res = RestAssured.given().get("program/"+token);
+        Response res = request.get("program/"+token);
         LOGGER.info(res.getBody().prettyPrint());
-
     }
 
 }

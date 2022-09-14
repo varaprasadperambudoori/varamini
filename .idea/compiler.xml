@@ -18,5 +18,18 @@
         <module name="ahmad" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ahmad" target="1.8" />
+      <module name="alex" target="1.8" />
+      <module name="convertingJsonNisum" target="1.8" />
+      <module name="elizabeth" target="1.8" />
+      <module name="jaushua" target="1.8" />
+      <module name="jiayue" target="1.8" />
+      <module name="ming" target="1.8" />
+      <module name="simon" target="9" />
+      <module name="simrah" target="18" />
+      <module name="thanhquan" target="1.8" />
+      <module name="zeeshan" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
