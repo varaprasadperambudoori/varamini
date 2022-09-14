@@ -20,11 +20,12 @@ public class AlexTextToJson {
         return result;
     }
 
-    public static void writeToJsonPretty(String fileName){
+    public static String writeToJsonPretty(String fileName) {
         //Create new File if file does not exist
-        try{
+        String prettyJson = null;
+        try {
             File file = new File("alex/src/main/resources/jsonData.json");
-            if(file.exists()) {
+            if (file.exists()) {
                 file.delete();
             }
             file.createNewFile();
@@ -32,7 +33,7 @@ public class AlexTextToJson {
             //Convert String into PrettyStringJson
             ObjectMapper mapper = new ObjectMapper();
             Object jsonObject = mapper.readValue(fileName, Object.class);
-            String prettyJson = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(jsonObject);
+            prettyJson = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(jsonObject);
 
             //Write String into JSON file
             Writer write = new OutputStreamWriter(new FileOutputStream(file));
@@ -41,13 +42,14 @@ public class AlexTextToJson {
             write.flush();
             write.close();
 
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
+        return prettyJson;
     }
 
     public static void main(String[] args) throws IOException {
         String textFile = readFile("alex/src/main/resources/AlexInputText");
-        writeToJsonPretty(textFile);
+        System.out.println(writeToJsonPretty(textFile));
     }
 }
