@@ -13,9 +13,7 @@
         <module name="thanhquan" />
         <module name="ming" />
         <module name="zeeshan" />
-        <module name="simrah" />
-        <module name="jaushua" />
-        <module name="ahmad" />
+
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
