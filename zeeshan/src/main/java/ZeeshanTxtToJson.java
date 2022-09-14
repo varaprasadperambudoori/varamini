@@ -1,3 +1,4 @@
+
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.nio.file.Files;
@@ -11,6 +12,8 @@ public class ZeeshanTxtToJson {
         try {
             text = new String(Files.readAllBytes(Paths.get("zeeshan/src/main/resources/text.txt")));
             File json = new File("zeeshan/src/main/resources/output.json");
+            text = new String(Files.readAllBytes(Paths.get("src/resources/jsonInput.txt")));
+            File json = new File("src/resources/output.json");
             Writer write = new OutputStreamWriter(new FileOutputStream(json));
             write.write(text);
             write.flush();
@@ -21,4 +24,5 @@ public class ZeeshanTxtToJson {
         }
 
     }
+
 }
