@@ -13,8 +13,12 @@
         <module name="ming" />
         <module name="than" />
         <module name="zeeshan" />
-
+        <module name="ahmad" />
+        <module name="jaushua" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="log" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
