@@ -2,18 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jiayue" />
         <module name="elizabeth" />
-        <module name="simon" />
         <module name="alex" />
-        <module name="thanhquan" />
-        <module name="ming" />
-        <module name="zeeshan" />
-        
-    </bytecodeTargetLevel>
+        <module name="jaushua" />
+      </profile>
+    </annotationProcessing>
   </component>
 </project>

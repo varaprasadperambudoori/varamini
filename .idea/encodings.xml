@@ -5,7 +5,6 @@
     <file url="file://$PROJECT_DIR$/ahmad/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alex/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alex/src/main/resources" charset="UTF-8" />
-
     <file url="file://$PROJECT_DIR$/elizabeth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elizabeth/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jiayue/src/main/java" charset="UTF-8" />
@@ -16,7 +15,8 @@
     <file url="file://$PROJECT_DIR$/ming/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/simon/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/simon/src/main/resources" charset="UTF-8" />
-
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zeeshan/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zeeshan/src/main/resources" charset="UTF-8" />
   </component>
