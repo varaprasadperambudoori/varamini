@@ -9,9 +9,9 @@ import java.util.Scanner;
 
 public class Constant {
     private List<String> list;
-    public Constant(String fileName) throws FileNotFoundException {
+    public Constant() throws FileNotFoundException {
         list = new LinkedList<>();
-        Scanner scan = new Scanner(new File("/Users/jiayue/Downloads/varamini/jiayue/src/main/resources/" + fileName));
+        Scanner scan = new Scanner(new File("/Users/jiayue/Downloads/varamini/jiayue/src/main/java/com/api/utility/baseURLs"));
         while (scan.hasNextLine())
             list.add(scan.nextLine());
     }
