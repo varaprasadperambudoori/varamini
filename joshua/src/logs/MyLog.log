@@ -1,0 +1,6 @@
+[INFO ] 2022-09-14 22:14:00,873 base.baseClass:49 - Made JSON object to hold the body for users post method
+[INFO ] 2022-09-14 22:14:00,876 base.baseClass:59 - Made request to Sandbox API with users post method
+[INFO ] 2022-09-14 22:14:02,362 base.baseClass:74 - print body of the post method to console
+[INFO ] 2022-09-14 22:14:02,362 base.baseClass:23 - Made JSON object to hold the body for program post method
+[INFO ] 2022-09-14 22:14:02,363 base.baseClass:28 - Made request to Sandbox API with program post method
+[INFO ] 2022-09-14 22:14:02,635 base.baseClass:43 - print body of the post method to console
