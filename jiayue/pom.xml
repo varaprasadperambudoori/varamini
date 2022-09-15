@@ -33,6 +33,14 @@
             <version>2.41.2</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-library</artifactId>
+            <version>2.2</version>
+        </dependency>
+
+
+
 
 
         <dependency>
@@ -102,8 +110,18 @@
             <groupId>junit</groupId>
             <artifactId>junit-dep</artifactId>
             <version>4.11</version>
-            <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
+
+
+
+
 
         <dependency>
             <groupId>org.hamcrest</groupId>
@@ -141,6 +159,8 @@
             <version>7.6.1</version>
             <scope>compile</scope>
         </dependency>
+
+
 
     </dependencies>
 
