@@ -1,0 +1,56 @@
+[INFO ] 2022-09-15 00:58:40.198 [main] elizabethSandboxUsers - REST ASSURED API LOG COMMENCED
+[INFO ] 2022-09-15 00:58:41.161 [main] elizabethSandboxUsers - Navigate BaseURI
+[INFO ] 2022-09-15 00:58:41.383 [main] elizabethSandboxUsers - Basic authentication provided
+[INFO ] 2022-09-15 00:58:41.388 [main] elizabethSandboxUsers - Body added
+[INFO ] 2022-09-15 00:58:43.473 [main] elizabethSandboxUsers - Post method
+[INFO ] 2022-09-15 00:58:43.485 [main] elizabethSandboxUsers - LOG COMPLETED
+[INFO ] 2022-09-15 00:59:07.415 [main] elizabethSandboxUsers - REST ASSURED API LOG COMMENCED
+[INFO ] 2022-09-15 00:59:08.047 [main] elizabethSandboxUsers - Navigate BaseURI
+[INFO ] 2022-09-15 00:59:08.271 [main] elizabethSandboxUsers - Basic authentication provided
+[INFO ] 2022-09-15 00:59:08.273 [main] elizabethSandboxUsers - Body added
+[INFO ] 2022-09-15 00:59:13.046 [main] elizabethSandboxUsers - Post method
+[INFO ] 2022-09-15 00:59:13.046 [main] elizabethSandboxUsers - Compared expected and actual status codes
+[INFO ] 2022-09-15 00:59:13.107 [main] elizabethSandboxUsers - Printed response
+[INFO ] 2022-09-15 00:59:13.111 [main] elizabethSandboxUsers - {
+    "token": "b7ea14c2-6b57-4054-9327-6b44eb74f6fe",
+    "active": true,
+    "first_name": "Elizabeth",
+    "last_name": "Feng",
+    "email": "elizabethfengabcdefghijklmn@gmail.com",
+    "phone": "(123)-456-7890",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-15T07:59:10Z",
+    "last_modified_time": "2022-09-15T07:59:10Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-15 00:59:13.112 [main] elizabethSandboxUsers - LOG COMPLETED
+[INFO ] 2022-09-15 00:59:33.383 [main] elizabethSandboxUsers - REST ASSURED API LOG COMMENCED
+[INFO ] 2022-09-15 00:59:33.973 [main] elizabethSandboxUsers - Navigate BaseURI
+[INFO ] 2022-09-15 00:59:34.140 [main] elizabethSandboxUsers - Basic authentication provided
+[INFO ] 2022-09-15 00:59:34.142 [main] elizabethSandboxUsers - Body added
+[INFO ] 2022-09-15 00:59:36.175 [main] elizabethSandboxUsers - Post method
+[INFO ] 2022-09-15 00:59:36.176 [main] elizabethSandboxUsers - Compared expected and actual status codes
+[INFO ] 2022-09-15 00:59:36.214 [main] elizabethSandboxUsers - Printed response
+[INFO ] 2022-09-15 00:59:36.217 [main] elizabethSandboxUsers - {
+    "token": "2128430c-a4e6-4448-aef6-03043009b51a",
+    "active": true,
+    "first_name": "Elizabeth",
+    "last_name": "Feng",
+    "email": "elizabethfengabcdefghijklmno@gmail.com",
+    "phone": "(123)-456-7890",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-15T07:59:36Z",
+    "last_modified_time": "2022-09-15T07:59:36Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-15 00:59:36.218 [main] elizabethSandboxUsers - LOG COMPLETED

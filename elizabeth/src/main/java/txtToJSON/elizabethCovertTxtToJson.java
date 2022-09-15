@@ -1,4 +1,4 @@
-package TXTToJSON;
+package txtToJSON;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -8,12 +8,12 @@ import java.util.Scanner;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-public class ElizabethCovertTxtToJson {
+public class elizabethCovertTxtToJson {
     public static void main(String[] args) {
 
         JSONParser jsonParser = new JSONParser();
 
-        File fileTXT = new File("elizabeth/src/main/resources/ElizabethInputTxt.txt");
+        File fileTXT = new File("elizabeth/src/main/resources/elizabethInputTxt.txt");
 
 
         //  File fileTXT = new File("/Users/elizabeth/nisum-selenium-workspace/varaminiOLD/src/main/resources/elizabethInputTxt.txt");
@@ -23,7 +23,7 @@ public class ElizabethCovertTxtToJson {
 
             System.out.println(object.toString());
 
-            File fileJSON = new File("elizabeth/src/main/resources/ElizabethOutput.json");
+            File fileJSON = new File("elizabeth/src/main/resources/elizabethOutput.json");
 
         //    File fileJSON = new File("/Users/elizabeth/Desktop/jsonData.json");
 
@@ -35,7 +35,7 @@ public class ElizabethCovertTxtToJson {
             output.close();
 
 
-            File result = new File("elizabeth/src/main/resources/ElizabethOutput.json");
+            File result = new File("elizabeth/src/main/resources/elizabethOutput.json");
 
         //    File result = new File("/Users/elizabeth/Desktop/jsonData.json");
 
