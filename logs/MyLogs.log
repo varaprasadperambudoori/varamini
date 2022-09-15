@@ -1,0 +1,9 @@
+[INFO ] 2022-09-15 10:29:57.001 [main] RestAssured.AhmedRestAssured - That was a hello info
+[ERROR] 2022-09-15 10:29:57.003 [main] RestAssured.AhmedRestAssured - Error message
+[INFO ] 2022-09-15 10:30:34.428 [main] RestAssured.AhmedRestAssured - This is a testing info
+[INFO ] 2022-09-15 10:31:57.059 [main] RestAssured.AhmedRestAssured - This is a testing info
+[INFO ] 2022-09-15 10:57:46.052 [main] RestAssured.AhmedRestAssured - This is a testing info
+[INFO ] 2022-09-15 10:59:53.287 [main] RestAssured.AhmedRestAssured - This is a testing info
+[INFO ] 2022-09-15 11:12:22.272 [main] RestAssured.AhmedRestAssured - This is a testing info
+[INFO ] 2022-09-15 11:17:09.772 [main] RestAssured.AhmedRestAssured - This is a testing info
+[INFO ] 2022-09-15 11:18:14.890 [main] RestAssured.AhmedRestAssured - This is a testing info

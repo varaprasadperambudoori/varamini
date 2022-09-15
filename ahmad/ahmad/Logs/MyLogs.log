@@ -1,0 +1,131 @@
+[INFO ] 2022-09-15 11:41:02.285 [main] AhmedRestAssuredUsers - Navigate BaseURI
+[INFO ] 2022-09-15 11:41:02.392 [main] AhmedRestAssuredUsers - Basic authentication provided
+[INFO ] 2022-09-15 11:41:02.393 [main] AhmedRestAssuredUsers - Created JsonObject
+[INFO ] 2022-09-15 11:42:04.082 [main] AhmedRestAssuredUsers - Navigate BaseURI
+[INFO ] 2022-09-15 11:42:04.191 [main] AhmedRestAssuredUsers - Basic authentication provided
+[INFO ] 2022-09-15 11:42:04.192 [main] AhmedRestAssuredUsers - Created JsonObject
+[INFO ] 2022-09-15 11:42:05.323 [main] AhmedRestAssuredUsers - {
+    "token": "bbb12cd5-97aa-48d5-9cda-2898ba261ba7",
+    "active": true,
+    "first_name": "Ahmed",
+    "last_name": "Damanhoury",
+    "email": "Andamanhoury443211@gmail.com",
+    "phone": "(123)-456-7890",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-15T18:42:05Z",
+    "last_modified_time": "2022-09-15T18:42:05Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-15 11:45:09.925 [main] AhmedRestAssuredUsers - Used baseurl from APILinks file
+[INFO ] 2022-09-15 11:45:10.029 [main] AhmedRestAssuredUsers - Basic authentication provided
+[INFO ] 2022-09-15 11:45:10.029 [main] AhmedRestAssuredUsers - Added user extension from APILinks file
+[INFO ] 2022-09-15 11:45:10.029 [main] AhmedRestAssuredUsers - Filled Map with objects to inject into JsonObject
+[INFO ] 2022-09-15 11:45:10.031 [main] AhmedRestAssuredUsers - Created JsonObject
+[INFO ] 2022-09-15 11:45:11.222 [main] AhmedRestAssuredUsers - Sent Body
+[INFO ] 2022-09-15 11:45:11.223 [main] AhmedRestAssuredUsers - Status Code = 201
+[INFO ] 2022-09-15 11:45:11.247 [main] AhmedRestAssuredUsers - {
+    "token": "f3df8a84-f947-4747-829c-e96d7ec2643b",
+    "active": true,
+    "first_name": "Ahmed",
+    "last_name": "Damanhoury",
+    "email": "Andamanhoury4432311@gmail.com",
+    "phone": "(123)-456-7890",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-15T18:45:11Z",
+    "last_modified_time": "2022-09-15T18:45:11Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-15 11:45:45.981 [main] AhmedRestAssuredUsers - Used baseurl from APILinks file
+[INFO ] 2022-09-15 11:45:46.087 [main] AhmedRestAssuredUsers - Basic authentication provided
+[INFO ] 2022-09-15 11:45:46.087 [main] AhmedRestAssuredUsers - Added user extension from APILinks file
+[INFO ] 2022-09-15 11:45:46.088 [main] AhmedRestAssuredUsers - Filled Map with objects to inject into JsonObject
+[INFO ] 2022-09-15 11:45:46.088 [main] AhmedRestAssuredUsers - Created JsonObject
+[INFO ] 2022-09-15 11:45:47.005 [main] AhmedRestAssuredUsers - Sent Body
+[INFO ] 2022-09-15 11:46:00.738 [main] AhmedRestAssuredUsers - Used baseurl from APILinks file
+[INFO ] 2022-09-15 11:46:00.841 [main] AhmedRestAssuredUsers - Basic authentication provided
+[INFO ] 2022-09-15 11:46:00.842 [main] AhmedRestAssuredUsers - Added user extension from APILinks file
+[INFO ] 2022-09-15 11:46:00.842 [main] AhmedRestAssuredUsers - Filled Map with objects to inject into JsonObject
+[INFO ] 2022-09-15 11:46:00.842 [main] AhmedRestAssuredUsers - Created JsonObject
+[INFO ] 2022-09-15 11:46:01.851 [main] AhmedRestAssuredUsers - Sent Body
+[INFO ] 2022-09-15 11:46:01.851 [main] AhmedRestAssuredUsers - Status Code = 201
+[INFO ] 2022-09-15 11:46:01.873 [main] AhmedRestAssuredUsers - {
+    "token": "e44bc0f7-95f7-4371-bc7f-4b370d89c270",
+    "active": true,
+    "first_name": "Ahmed",
+    "last_name": "Damanhoury",
+    "email": "Andamanhoury44631@gmail.com",
+    "phone": "(123)-456-7890",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-15T18:46:01Z",
+    "last_modified_time": "2022-09-15T18:46:01Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-15 11:46:28.719 [main] AhmedRestAssuredUsers - Used baseurl from APILinks file
+[INFO ] 2022-09-15 11:46:28.829 [main] AhmedRestAssuredUsers - Basic authentication provided
+[INFO ] 2022-09-15 11:46:28.830 [main] AhmedRestAssuredUsers - Added user extension from APILinks file
+[INFO ] 2022-09-15 11:46:28.830 [main] AhmedRestAssuredUsers - Filled Map with objects to inject into JsonObject
+[INFO ] 2022-09-15 11:46:28.830 [main] AhmedRestAssuredUsers - Created JsonObject
+[INFO ] 2022-09-15 11:46:29.811 [main] AhmedRestAssuredUsers - Sent Body
+[INFO ] 2022-09-15 11:46:29.811 [main] AhmedRestAssuredUsers - Status Code = 201
+[INFO ] 2022-09-15 11:46:29.834 [main] AhmedRestAssuredUsers - {
+    "token": "5dfb79b6-028f-451a-89dd-cf6b26caf1c7",
+    "active": true,
+    "first_name": "Ahmed",
+    "last_name": "Damanhoury",
+    "email": "Andamanhoury4441@gmail.com",
+    "phone": "(123)-456-7890",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-15T18:46:29Z",
+    "last_modified_time": "2022-09-15T18:46:29Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-15 11:47:19.174 [main] AhmedRestAssuredUsers - Used baseurl from APILinks file
+[INFO ] 2022-09-15 11:47:19.280 [main] AhmedRestAssuredUsers - Basic authentication provided
+[INFO ] 2022-09-15 11:47:19.280 [main] AhmedRestAssuredUsers - Added user extension from APILinks file
+[INFO ] 2022-09-15 11:47:19.280 [main] AhmedRestAssuredUsers - Filled Map with objects to inject into JsonObject
+[INFO ] 2022-09-15 11:47:19.281 [main] AhmedRestAssuredUsers - Created JsonObject
+[INFO ] 2022-09-15 11:47:20.294 [main] AhmedRestAssuredUsers - Sent Body
+[INFO ] 2022-09-15 11:47:29.122 [main] AhmedRestAssuredUsers - Used baseurl from APILinks file
+[INFO ] 2022-09-15 11:47:29.236 [main] AhmedRestAssuredUsers - Basic authentication provided
+[INFO ] 2022-09-15 11:47:29.237 [main] AhmedRestAssuredUsers - Added user extension from APILinks file
+[INFO ] 2022-09-15 11:47:29.237 [main] AhmedRestAssuredUsers - Filled Map with objects to inject into JsonObject
+[INFO ] 2022-09-15 11:47:29.237 [main] AhmedRestAssuredUsers - Created JsonObject
+[INFO ] 2022-09-15 11:47:30.241 [main] AhmedRestAssuredUsers - Sent Body
+[INFO ] 2022-09-15 11:47:30.241 [main] AhmedRestAssuredUsers - Status Code = 201
+[INFO ] 2022-09-15 11:47:30.263 [main] AhmedRestAssuredUsers - {
+    "token": "77c7ceba-b1ce-4e78-9ea6-3cf0351b8543",
+    "active": true,
+    "first_name": "Ahmed",
+    "last_name": "Damanhoury",
+    "email": "Andamanhoury6@gmail.com",
+    "phone": "(123)-456-7890",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-15T18:47:30Z",
+    "last_modified_time": "2022-09-15T18:47:30Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}

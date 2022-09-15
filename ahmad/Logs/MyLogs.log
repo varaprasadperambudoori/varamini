@@ -1,0 +1,38 @@
+[INFO ] 2022-09-15 11:49:48.055 [main] AhmedRestAssured - Used baseurl from APILinks file
+[INFO ] 2022-09-15 11:49:48.160 [main] AhmedRestAssured - Added credentials for api
+[INFO ] 2022-09-15 11:49:48.160 [main] AhmedRestAssured - Changed path and added the program addition
+[INFO ] 2022-09-15 11:49:48.161 [main] AhmedRestAssured - Created JsonObject
+[INFO ] 2022-09-15 11:49:49.070 [main] AhmedRestAssured - Sent Body containing JsonObject
+[INFO ] 2022-09-15 11:49:49.072 [main] AhmedRestAssured - Asserted that status code is 201 successful
+[INFO ] 2022-09-15 11:49:49.093 [main] AhmedRestAssured - {
+    "name": "Program Mini",
+    "active": true,
+    "token": "f5184294-1e2d-4d53-be98-a232039b5c6d",
+    "created_time": "2022-09-15T18:49:49Z",
+    "last_modified_time": "2022-09-15T18:49:49Z",
+    "account": "12.003.001.000000"
+}
+[INFO ] 2022-09-15 11:50:04.226 [main] AhmedRestAssuredUsers - Used baseurl from APILinks file
+[INFO ] 2022-09-15 11:50:04.329 [main] AhmedRestAssuredUsers - Basic authentication provided
+[INFO ] 2022-09-15 11:50:04.329 [main] AhmedRestAssuredUsers - Added user extension from APILinks file
+[INFO ] 2022-09-15 11:50:04.329 [main] AhmedRestAssuredUsers - Filled Map with objects to inject into JsonObject
+[INFO ] 2022-09-15 11:50:04.330 [main] AhmedRestAssuredUsers - Created JsonObject
+[INFO ] 2022-09-15 11:50:05.321 [main] AhmedRestAssuredUsers - Sent Body
+[INFO ] 2022-09-15 11:50:05.322 [main] AhmedRestAssuredUsers - Status Code = 201
+[INFO ] 2022-09-15 11:50:05.344 [main] AhmedRestAssuredUsers - {
+    "token": "b74106ff-0b60-4255-b1ae-16053f51f236",
+    "active": true,
+    "first_name": "Ahmed",
+    "last_name": "Damanhoury",
+    "email": "Andamanhoury467@gmail.com",
+    "phone": "(123)-456-7890",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-15T18:50:05Z",
+    "last_modified_time": "2022-09-15T18:50:05Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
