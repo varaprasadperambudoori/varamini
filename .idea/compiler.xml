@@ -2,15 +2,34 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="vara-mini" />
+        <module name="jiayue" />
+        <module name="elizabeth" />
+        <module name="simon" />
+        <module name="alex" />
+        <module name="thanhquan" />
+        <module name="ming" />
+        <module name="zeeshan" />
+        <module name="jaushua" />
+        <module name="ahmad" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ahmad" target="1.8" />
+      <module name="alex" target="1.8" />
+      <module name="convertingJsonNisum" target="1.8" />
+      <module name="elizabeth" target="1.8" />
+      <module name="jaushua" target="1.8" />
+      <module name="jiayue" target="1.8" />
+      <module name="ming" target="1.8" />
+      <module name="simon" target="9" />
+      <module name="thanhquan" target="1.8" />
       <module name="vara-mini" target="1.8" />
+      <module name="zeeshan" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/vara-mini.iml" filepath="$PROJECT_DIR$/vara-mini.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ahmad/ahmad.iml" filepath="$PROJECT_DIR$/ahmad/ahmad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alex/alex.iml" filepath="$PROJECT_DIR$/alex/alex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/convertingJsonNisum.iml" filepath="$PROJECT_DIR$/convertingJsonNisum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elizabeth/elizabeth.iml" filepath="$PROJECT_DIR$/elizabeth/elizabeth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/joshua/jaushua.iml" filepath="$PROJECT_DIR$/joshua/jaushua.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiayue/jiayue.iml" filepath="$PROJECT_DIR$/jiayue/jiayue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ming/ming.iml" filepath="$PROJECT_DIR$/ming/ming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simon/simon.iml" filepath="$PROJECT_DIR$/simon/simon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thanhquan/thanhquan.iml" filepath="$PROJECT_DIR$/thanhquan/thanhquan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zeeshan/zeeshan.iml" filepath="$PROJECT_DIR$/zeeshan/zeeshan.iml" />
     </modules>
   </component>
 </project>
