@@ -3,6 +3,7 @@ package SandboxAPITest;
 import io.restassured.RestAssured;
 import static com.api.Constants.*;
 import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.logging.log4j.Level;
@@ -60,6 +61,8 @@ public class SandboxTest {
         Response res = req.header("Content-Type","application/json")
                 .body(json.toString())
                 .post(CREATE_PROGRAMSOURCE);
+        String token = res.path("token");
+        System.out.println("Token:\n"+token);
         Assert.assertEquals(201,res.getStatusCode());
         LOGGER.info("Pass createProgramSource\nStatus Code : "+res.getStatusCode()
                 +" Payload: "+res.getBody().prettyPrint());
