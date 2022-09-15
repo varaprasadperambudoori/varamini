@@ -6,18 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jiayue" />
-        <module name="elizabeth" />
-        <module name="simon" />
-        <module name="alex" />
-        <module name="thanhquan" />
-        <module name="ming" />
-        <module name="zeeshan" />
+        <module name="vara-mini" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="convertingJsonNisum" target="1.8" />
-      <module name="thanhquan" target="1.8" />
+      <module name="vara-mini" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
