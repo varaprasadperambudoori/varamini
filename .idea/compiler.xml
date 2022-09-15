@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jiayue" />
         <module name="elizabeth" />
-        <module name="simon" />
         <module name="alex" />
+        <module name="simon" />
         <module name="thanhquan" />
         <module name="ming" />
         <module name="zeeshan" />
-        
-    </bytecodeTargetLevel>
+        <module name="jaushua" />
+        <module name="ahmad" />
+      </profile>
+    </annotationProcessing>
   </component>
 </project>
