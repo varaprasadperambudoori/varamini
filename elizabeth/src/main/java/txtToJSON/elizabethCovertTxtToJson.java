@@ -15,17 +15,12 @@ public class elizabethCovertTxtToJson {
 
         File fileTXT = new File("elizabeth/src/main/resources/elizabethInputTxt.txt");
 
-
-        //  File fileTXT = new File("/Users/elizabeth/nisum-selenium-workspace/varaminiOLD/src/main/resources/elizabethInputTxt.txt");
-
         try {
             JSONObject object = (JSONObject) jsonParser.parse(new FileReader(fileTXT));
 
             System.out.println(object.toString());
 
             File fileJSON = new File("elizabeth/src/main/resources/elizabethOutput.json");
-
-        //    File fileJSON = new File("/Users/elizabeth/Desktop/jsonData.json");
 
             FileWriter output = new FileWriter(fileJSON);
 
@@ -34,10 +29,7 @@ public class elizabethCovertTxtToJson {
             output.append(object.toString());
             output.close();
 
-
             File result = new File("elizabeth/src/main/resources/elizabethOutput.json");
-
-        //    File result = new File("/Users/elizabeth/Desktop/jsonData.json");
 
             Scanner read = new Scanner(result);
             System.out.println("Output from the json File");
