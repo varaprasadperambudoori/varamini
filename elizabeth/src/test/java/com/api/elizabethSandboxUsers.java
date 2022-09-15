@@ -5,10 +5,15 @@ import io.restassured.http.ContentType;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import org.json.JSONException;
 import org.json.simple.JSONObject;
 import org.junit.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.skyscreamer.jsonassert.JSONAssert;
+
+import java.io.File;
+import java.io.FileWriter;
 
 public class elizabethSandboxUsers {
         public static Logger log = LogManager.getLogger();
@@ -24,7 +29,7 @@ public class elizabethSandboxUsers {
         }
 
         @Test
-        public void sandboxRestAssuredUsers() {
+        public void sandboxRestAssuredUsers() throws JSONException {
             log.info("Logging Sandbox Users");
 
             RestAssured.baseURI = apiConstants.sandBaseURL;
@@ -38,7 +43,7 @@ public class elizabethSandboxUsers {
             parameters.put("first_name", "Elizabeth");
             parameters.put("last_name", "Feng");
             parameters.put("active", true);
-            parameters.put("email", "elizabethfengabcdefghijklmnop@gmail.com");
+            parameters.put("email", "elizabethfengabcdefghijklmnopqrs@gmail.com");      //need to change email to run
             parameters.put("phone", "(123)-456-7890");
 
             log.info("Body added");
@@ -59,9 +64,17 @@ public class elizabethSandboxUsers {
 
             System.out.println("Response Status Code Returned is: " +response.getStatusLine());
 
-            response.prettyPrint();
-            log.info("Printed response");
             log.info(response.prettyPrint());
 
-    }
+            log.info("Printed response");
+
+            String jsonOutput = response.prettyPrint();
+
+            JSONAssert.assertEquals("{first_name:\"Elizabeth\"}", jsonOutput, false);
+
+            log.info("Asserted JSON Data");
+
+        }
+
+
 }

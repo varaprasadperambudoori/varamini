@@ -6,11 +6,13 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.json.JSONException;
 import org.json.simple.JSONObject;
 import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.skyscreamer.jsonassert.JSONAssert;
 
 public class elizabethSandboxFundingSources {
         public static Logger log = LogManager.getLogger();
@@ -26,7 +28,7 @@ public class elizabethSandboxFundingSources {
         }
 
         @Test
-        public void sandboxRestAssuredPrograms() {
+        public void sandboxRestAssuredPrograms() throws JSONException {
             log.info("Logging Sandbox Programs");
 
         RestAssured.baseURI = apiConstants.sandBaseURL;
@@ -54,10 +56,15 @@ public class elizabethSandboxFundingSources {
 
         System.out.println("Response Status Code Returned is: " +response.getStatusLine());
 
-        response.prettyPrint();
-            log.info("Printed response");
             log.info(response.prettyPrint());
 
+            log.info("Printed response");
+
+            String jsonOutput = response.prettyPrint();
+
+            JSONAssert.assertEquals("{name:\"Program Mini\"}", jsonOutput, false);
+
+            log.info("Asserted JSON Data");
 
         }
 }

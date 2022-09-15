@@ -97,3 +97,124 @@
     "account": "12.003.001.000000"
 }
 [INFO ] 2022-09-15 09:49:36.504 [main] elizabethSandboxFundingSources - LOG COMPLETED
+[INFO ] 2022-09-15 10:04:24.974 [main] elizabethSandboxFundingSources - REST ASSURED API LOG COMMENCED
+[INFO ] 2022-09-15 10:04:24.982 [main] elizabethSandboxFundingSources - Logging Sandbox Programs
+[INFO ] 2022-09-15 10:04:25.910 [main] elizabethSandboxFundingSources - Navigate BaseURI
+[INFO ] 2022-09-15 10:04:26.206 [main] elizabethSandboxFundingSources - Basic authentication provided
+[INFO ] 2022-09-15 10:04:26.209 [main] elizabethSandboxFundingSources - Body added
+[INFO ] 2022-09-15 10:04:28.640 [main] elizabethSandboxFundingSources - Post method
+[INFO ] 2022-09-15 10:04:28.640 [main] elizabethSandboxFundingSources - Compared expected and actual status codes
+[INFO ] 2022-09-15 10:04:28.693 [main] elizabethSandboxFundingSources - Printed response
+[INFO ] 2022-09-15 10:04:28.695 [main] elizabethSandboxFundingSources - {
+    "name": "Program Mini",
+    "active": true,
+    "token": "2d6397e9-4727-487d-a27f-8e1e8c8964be",
+    "created_time": "2022-09-15T17:04:28Z",
+    "last_modified_time": "2022-09-15T17:04:28Z",
+    "account": "12.003.001.000000"
+}
+[INFO ] 2022-09-15 10:04:28.697 [main] elizabethSandboxFundingSources - LOG COMPLETED
+[INFO ] 2022-09-15 10:23:28.406 [main] elizabethSandboxUsers - REST ASSURED API LOG COMMENCED
+[INFO ] 2022-09-15 10:23:28.419 [main] elizabethSandboxUsers - Logging Sandbox Users
+[INFO ] 2022-09-15 10:23:29.497 [main] elizabethSandboxUsers - Navigate BaseURI
+[INFO ] 2022-09-15 10:23:29.788 [main] elizabethSandboxUsers - Basic authentication provided
+[INFO ] 2022-09-15 10:23:29.790 [main] elizabethSandboxUsers - Body added
+[INFO ] 2022-09-15 10:23:32.300 [main] elizabethSandboxUsers - Post method
+[INFO ] 2022-09-15 10:23:32.300 [main] elizabethSandboxUsers - Compared expected and actual status codes
+[INFO ] 2022-09-15 10:23:32.351 [main] elizabethSandboxUsers - Printed response
+[INFO ] 2022-09-15 10:23:32.354 [main] elizabethSandboxUsers - {
+    "token": "5bea19c6-97a3-45cf-a8dc-2844a3c0c55d",
+    "active": true,
+    "first_name": "Elizabeth",
+    "last_name": "Feng",
+    "email": "elizabethfengabcdefghijklmnopq@gmail.com",
+    "phone": "(123)-456-7890",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-15T17:23:32Z",
+    "last_modified_time": "2022-09-15T17:23:32Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-15 10:23:32.356 [main] elizabethSandboxUsers - LOG COMPLETED
+[INFO ] 2022-09-15 10:37:54.161 [main] elizabethSandboxUsers - REST ASSURED API LOG COMMENCED
+[INFO ] 2022-09-15 10:37:54.172 [main] elizabethSandboxUsers - Logging Sandbox Users
+[INFO ] 2022-09-15 10:37:55.545 [main] elizabethSandboxUsers - Navigate BaseURI
+[INFO ] 2022-09-15 10:37:55.851 [main] elizabethSandboxUsers - Basic authentication provided
+[INFO ] 2022-09-15 10:37:55.853 [main] elizabethSandboxUsers - Body added
+[INFO ] 2022-09-15 10:37:58.175 [main] elizabethSandboxUsers - Post method
+[INFO ] 2022-09-15 10:37:58.176 [main] elizabethSandboxUsers - Compared expected and actual status codes
+[INFO ] 2022-09-15 10:37:58.235 [main] elizabethSandboxUsers - Printed response
+[INFO ] 2022-09-15 10:37:58.239 [main] elizabethSandboxUsers - {
+    "token": "67d37d8e-2daa-4e70-8110-5a322c409cda",
+    "active": true,
+    "first_name": "Elizabeth",
+    "last_name": "Feng",
+    "email": "elizabethfengabcdefghijklmnopqr@gmail.com",
+    "phone": "(123)-456-7890",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-15T17:37:58Z",
+    "last_modified_time": "2022-09-15T17:37:58Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-15 10:37:58.261 [main] elizabethSandboxUsers - LOG COMPLETED
+[INFO ] 2022-09-15 10:46:29.011 [main] elizabethSandboxUsers - REST ASSURED API LOG COMMENCED
+[INFO ] 2022-09-15 10:46:29.021 [main] elizabethSandboxUsers - Logging Sandbox Users
+[INFO ] 2022-09-15 10:46:30.128 [main] elizabethSandboxUsers - Navigate BaseURI
+[INFO ] 2022-09-15 10:46:30.401 [main] elizabethSandboxUsers - Basic authentication provided
+[INFO ] 2022-09-15 10:46:30.402 [main] elizabethSandboxUsers - Body added
+[INFO ] 2022-09-15 10:46:32.440 [main] elizabethSandboxUsers - Post method
+[INFO ] 2022-09-15 10:46:32.462 [main] elizabethSandboxUsers - LOG COMPLETED
+[INFO ] 2022-09-15 10:47:07.304 [main] elizabethSandboxUsers - REST ASSURED API LOG COMMENCED
+[INFO ] 2022-09-15 10:47:07.313 [main] elizabethSandboxUsers - Logging Sandbox Users
+[INFO ] 2022-09-15 10:47:08.070 [main] elizabethSandboxUsers - Navigate BaseURI
+[INFO ] 2022-09-15 10:47:08.310 [main] elizabethSandboxUsers - Basic authentication provided
+[INFO ] 2022-09-15 10:47:08.312 [main] elizabethSandboxUsers - Body added
+[INFO ] 2022-09-15 10:47:10.187 [main] elizabethSandboxUsers - Post method
+[INFO ] 2022-09-15 10:47:10.188 [main] elizabethSandboxUsers - Compared expected and actual status codes
+[INFO ] 2022-09-15 10:47:10.240 [main] elizabethSandboxUsers - {
+    "token": "6520ffc6-785c-421f-964b-fb235af94e65",
+    "active": true,
+    "first_name": "Elizabeth",
+    "last_name": "Feng",
+    "email": "elizabethfengabcdefghijklmnopqrs@gmail.com",
+    "phone": "(123)-456-7890",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-15T17:47:10Z",
+    "last_modified_time": "2022-09-15T17:47:10Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-15 10:47:10.241 [main] elizabethSandboxUsers - Printed response
+[INFO ] 2022-09-15 10:47:10.255 [main] elizabethSandboxUsers - Asserted JSON Data
+[INFO ] 2022-09-15 10:47:10.256 [main] elizabethSandboxUsers - LOG COMPLETED
+[INFO ] 2022-09-15 10:59:50.884 [main] elizabethSandboxFundingSources - REST ASSURED API LOG COMMENCED
+[INFO ] 2022-09-15 10:59:50.893 [main] elizabethSandboxFundingSources - Logging Sandbox Programs
+[INFO ] 2022-09-15 10:59:51.937 [main] elizabethSandboxFundingSources - Navigate BaseURI
+[INFO ] 2022-09-15 10:59:52.260 [main] elizabethSandboxFundingSources - Basic authentication provided
+[INFO ] 2022-09-15 10:59:52.262 [main] elizabethSandboxFundingSources - Body added
+[INFO ] 2022-09-15 10:59:54.770 [main] elizabethSandboxFundingSources - Post method
+[INFO ] 2022-09-15 10:59:54.771 [main] elizabethSandboxFundingSources - Compared expected and actual status codes
+[INFO ] 2022-09-15 10:59:54.827 [main] elizabethSandboxFundingSources - {
+    "name": "Program Mini",
+    "active": true,
+    "token": "734db6c3-7164-4e21-961e-1c56ef1bcbd3",
+    "created_time": "2022-09-15T17:59:54Z",
+    "last_modified_time": "2022-09-15T17:59:54Z",
+    "account": "12.003.001.000000"
+}
+[INFO ] 2022-09-15 10:59:54.828 [main] elizabethSandboxFundingSources - Printed response
+[INFO ] 2022-09-15 10:59:54.843 [main] elizabethSandboxFundingSources - Asserted JSON Data
+[INFO ] 2022-09-15 10:59:54.843 [main] elizabethSandboxFundingSources - LOG COMPLETED
