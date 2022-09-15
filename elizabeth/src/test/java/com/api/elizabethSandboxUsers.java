@@ -6,12 +6,9 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
-import org.junit.AfterClass;
-import org.junit.Assert;
+import org.junit.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.BeforeClass;
-import org.junit.Test;
 
 public class elizabethSandboxUsers {
         public static Logger log = LogManager.getLogger();
@@ -27,7 +24,8 @@ public class elizabethSandboxUsers {
         }
 
         @Test
-        public void sandboxRestAssuredFramework() {
+        public void sandboxRestAssuredUsers() {
+            log.info("Logging Sandbox Users");
 
             RestAssured.baseURI = apiConstants.sandBaseURL;
             log.info("Navigate BaseURI");
@@ -64,8 +62,6 @@ public class elizabethSandboxUsers {
             response.prettyPrint();
             log.info("Printed response");
             log.info(response.prettyPrint());
-
-
 
     }
 }

@@ -54,3 +54,46 @@
     "status": "ACTIVE"
 }
 [INFO ] 2022-09-15 00:59:36.218 [main] elizabethSandboxUsers - LOG COMPLETED
+[INFO ] 2022-09-15 09:42:54.335 [main] elizabethSandboxUsers - REST ASSURED API LOG COMMENCED
+[INFO ] 2022-09-15 09:42:54.348 [main] elizabethSandboxUsers - Logging Sandbox Users
+[INFO ] 2022-09-15 09:42:55.441 [main] elizabethSandboxUsers - Navigate BaseURI
+[INFO ] 2022-09-15 09:42:55.822 [main] elizabethSandboxUsers - Basic authentication provided
+[INFO ] 2022-09-15 09:42:55.825 [main] elizabethSandboxUsers - Body added
+[INFO ] 2022-09-15 09:42:58.443 [main] elizabethSandboxUsers - Post method
+[INFO ] 2022-09-15 09:42:58.447 [main] elizabethSandboxUsers - Compared expected and actual status codes
+[INFO ] 2022-09-15 09:42:58.504 [main] elizabethSandboxUsers - Printed response
+[INFO ] 2022-09-15 09:42:58.509 [main] elizabethSandboxUsers - {
+    "token": "708fcfa1-5a8c-4e1c-ac36-8537d3e17a1e",
+    "active": true,
+    "first_name": "Elizabeth",
+    "last_name": "Feng",
+    "email": "elizabethfengabcdefghijklmnop@gmail.com",
+    "phone": "(123)-456-7890",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-15T16:42:58Z",
+    "last_modified_time": "2022-09-15T16:42:58Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-15 09:42:58.510 [main] elizabethSandboxUsers - LOG COMPLETED
+[INFO ] 2022-09-15 09:49:32.032 [main] elizabethSandboxFundingSources - REST ASSURED API LOG COMMENCED
+[INFO ] 2022-09-15 09:49:32.045 [main] elizabethSandboxFundingSources - Logging Sandbox Programs
+[INFO ] 2022-09-15 09:49:33.418 [main] elizabethSandboxFundingSources - Navigate BaseURI
+[INFO ] 2022-09-15 09:49:33.660 [main] elizabethSandboxFundingSources - Basic authentication provided
+[INFO ] 2022-09-15 09:49:33.662 [main] elizabethSandboxFundingSources - Body added
+[INFO ] 2022-09-15 09:49:36.445 [main] elizabethSandboxFundingSources - Post method
+[INFO ] 2022-09-15 09:49:36.445 [main] elizabethSandboxFundingSources - Compared expected and actual status codes
+[INFO ] 2022-09-15 09:49:36.500 [main] elizabethSandboxFundingSources - Printed response
+[INFO ] 2022-09-15 09:49:36.503 [main] elizabethSandboxFundingSources - {
+    "name": "Program Mini",
+    "active": true,
+    "token": "2fab4f92-9d6f-4249-ab5b-f78ff707bda3",
+    "created_time": "2022-09-15T16:49:36Z",
+    "last_modified_time": "2022-09-15T16:49:36Z",
+    "account": "12.003.001.000000"
+}
+[INFO ] 2022-09-15 09:49:36.504 [main] elizabethSandboxFundingSources - LOG COMPLETED
