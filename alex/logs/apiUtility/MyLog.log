@@ -1,0 +1,10 @@
+[INFO ] 2022-09-15 09:55:58.991 [main] AlexRestAssured - Hello, Logger has started
+[INFO ] 2022-09-15 09:55:59.003 [main] AlexRestAssured - Initialized JSONObject for POST Method
+[INFO ] 2022-09-15 09:55:59.006 [main] AlexRestAssured - Made request to SandBox API using Post Method
+[INFO ] 2022-09-15 09:56:01.784 [main] AlexRestAssured - Printed body of the post method to console
+[INFO ] 2022-09-15 09:56:01.785 [main] AlexRestAssured - Logger completed. Good Bye
+[INFO ] 2022-09-15 09:56:52.632 [main] AlexSandBoxUsers - Hello, Logger has started
+[INFO ] 2022-09-15 09:56:52.641 [main] AlexSandBoxUsers - Initialized JSONObject for POST Method
+[INFO ] 2022-09-15 09:56:52.643 [main] AlexSandBoxUsers - Made request to SandBox API with users using Post Method
+[INFO ] 2022-09-15 09:56:54.772 [main] AlexSandBoxUsers - Printed body of the post method to console
+[INFO ] 2022-09-15 09:56:54.773 [main] AlexSandBoxUsers - Logger completed. Good Bye
