@@ -17,5 +17,10 @@
         <module name="ahmad" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alex" target="8" />
+      <module name="ming" target="8" />
+      <module name="simrah" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
