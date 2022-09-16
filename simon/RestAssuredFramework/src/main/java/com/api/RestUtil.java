@@ -16,30 +16,33 @@ import java.io.File;
 import java.io.FileReader;
 import static com.api.Constants.*;
 public class RestUtil{
-    private final Logger LOGGER = LogManager.getLogger(RestUtil.class);
+    private static final Logger LOGGER = LogManager.getLogger(RestUtil.class);
     public ObjectMapper mapper = new ObjectMapper();
     private String token;
-    private RequestSpecification request;
+    public RequestSpecification request;
+    public Response response;
     private String username,password;
 
-    public RestUtil given(){
+    public RestUtil(){
+    }
+    public void given(){
         RestAssured.baseURI = BASEURI;
         LOGGER.info("the baseURI is "+RestAssured.baseURI);
         request = RestAssured.given().auth().basic(username,password);
-        return this;
     }
-    public void login(String user,String pass){
+    public RestUtil login(String user,String pass){
         this.username = user;
         this.password = pass;
+        return this;
     }
     public  void logout(){
         this.username = "";
         this.password="";
     }
 
-    public void addPayloadFile(RequestSpecification req, File file){
+    public void addPayload(File file){
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
-        JsonNode json=null;
+        //JsonNode json=null;
 
         try(BufferedReader reader = new BufferedReader(new FileReader(file))){
             String readFile="";
@@ -47,18 +50,24 @@ public class RestUtil{
             while(line!=null){
                 readFile+=line;
             }
-            req.given().body(readFile);
+            request.body(readFile);
         }catch (Exception e){
             e.printStackTrace();
         }
     }
-    public void createProgram(String name){
+    public RestUtil addPayLoad(JSONObject json){
+        request.contentType(ContentType.JSON).body(json.toString());
+        return this;
+    }
+    /*public void createProgram(String name){
         JSONObject json = new JSONObject();
         json.put("name",name);
         Response res = request.contentType(ContentType.JSON)
+                .body(json.toString())
                 .post(CREATE_PROGRAMSOURCE);
         //TODO set token
-
+        token = res.path("token");
+        System.out.println(token);
         LOGGER.info(res.getBody().prettyPrint());
     }
     public void getProgramSource(String token){
@@ -74,5 +83,16 @@ public class RestUtil{
         json.put("phone",phoneNum);
         Response res = request.body(json.toString()).post(CREATE_USER);
         LOGGER.info("Status Code: "+res.getStatusCode()+"\nPayload: "+res.getBody().prettyPrint());
+    }
+    */
+    public Response postRequest(String endpoint){
+        response = request.post(endpoint);
+        LOGGER.info("Status Code: "+response.getStatusCode()+"\nPayload: "+response.getBody().prettyPrint());
+        return  response;
+    }
+    public void getRequest(String endpoint){
+        response = request.get(endpoint);
+        LOGGER.info("Status Code: "+response.getStatusCode()+"\nPayload: "+response.getBody().prettyPrint());
+
     }
 }
