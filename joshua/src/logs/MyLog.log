@@ -1,6 +1,40 @@
-[INFO ] 2022-09-14 22:14:00,873 base.baseClass:49 - Made JSON object to hold the body for users post method
-[INFO ] 2022-09-14 22:14:00,876 base.baseClass:59 - Made request to Sandbox API with users post method
-[INFO ] 2022-09-14 22:14:02,362 base.baseClass:74 - print body of the post method to console
-[INFO ] 2022-09-14 22:14:02,362 base.baseClass:23 - Made JSON object to hold the body for program post method
-[INFO ] 2022-09-14 22:14:02,363 base.baseClass:28 - Made request to Sandbox API with program post method
-[INFO ] 2022-09-14 22:14:02,635 base.baseClass:43 - print body of the post method to console
+[INFO ] 2022-09-16 08:14:39.659 [main] joshuaSandboxAPIRestAssured - POST FOR SANDBOX PROGRAM STARTED
+[INFO ] 2022-09-16 08:14:39.661 [main] joshuaSandboxAPIRestAssured - Made JSON object to hold the body for program post method
+[INFO ] 2022-09-16 08:14:39.662 [main] joshuaSandboxAPIRestAssured - Made request to Sandbox API with program post method
+[INFO ] 2022-09-16 08:14:41.450 [main] joshuaSandboxAPIRestAssured - Adding assert to check post
+[INFO ] 2022-09-16 08:14:41.485 [main] joshuaSandboxAPIRestAssured - print body of post method to log
+[INFO ] 2022-09-16 08:14:41.486 [main] joshuaSandboxAPIRestAssured - {
+    "name": "Program Mini",
+    "active": true,
+    "token": "9164b3e9-e7de-4481-b31a-dcd3e98bb75b",
+    "created_time": "2022-09-16T15:14:40Z",
+    "last_modified_time": "2022-09-16T15:14:40Z",
+    "account": "12.003.001.000000"
+}
+[INFO ] 2022-09-16 08:14:41.486 [main] joshuaSandboxAPIRestAssured - print body of the post method to console
+[INFO ] 2022-09-16 08:14:41.487 [main] joshuaSandboxAPIRestAssured - POST FOR SANDBOX PROGRAM ENDED
+[INFO ] 2022-09-16 08:14:41.487 [main] joshuaSandboxAPIRestAssured - POST FOR SANDBOX USERS STARTED
+[INFO ] 2022-09-16 08:14:41.487 [main] joshuaSandboxAPIRestAssured - Made JSON object to hold the body for users post method
+[INFO ] 2022-09-16 08:14:41.487 [main] joshuaSandboxAPIRestAssured - Made request to Sandbox API with users post method
+[INFO ] 2022-09-16 08:14:41.861 [main] joshuaSandboxAPIRestAssured - print body of post method to log
+[INFO ] 2022-09-16 08:14:41.862 [main] joshuaSandboxAPIRestAssured - {
+    "token": "790433c0-9785-4892-8553-7e365767c9b0",
+    "active": true,
+    "first_name": "Joshua",
+    "last_name": "Cabrera",
+    "email": "jcabrera1921@mailinator.com",
+    "phone": "(123)-456-7890",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-16T15:14:40Z",
+    "last_modified_time": "2022-09-16T15:14:40Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-16 08:14:41.863 [main] joshuaSandboxAPIRestAssured - print body of the post method to console
+[INFO ] 2022-09-16 08:14:41.864 [main] joshuaSandboxAPIRestAssured - Adding assert to check post
+[INFO ] 2022-09-16 08:14:41.865 [main] joshuaSandboxAPIRestAssured - print body of the post method to console
+[INFO ] 2022-09-16 08:14:41.866 [main] joshuaSandboxAPIRestAssured - POST FOR SANDBOX USERS ENDED
