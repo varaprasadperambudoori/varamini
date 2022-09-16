@@ -9,8 +9,8 @@ public class AhmedTxtToJson {
     public static void main(String[] a) {
         String text;
         try {
-            text = new String(Files.readAllBytes(Paths.get("src/main/resources/AhmedInputText")));
-            File json = new File("src/main/resources/AhmedOutputText.json");
+            text = new String(Files.readAllBytes(Paths.get("convertToJson.src/main/resources/AhmedInputText")));
+            File json = new File("convertToJson.src/main/resources/AhmedOutputText.json");
             Writer write = new OutputStreamWriter(new FileOutputStream(json));
             write.write(text);
             write.flush();

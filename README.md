@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @varaprasadperambudoori
 - 👀 I’m interested in leaning and sharing my learnings
-- 🌱 I’m currently learning on api automation 
+- 🌱 I’m currently learning on src.main1.java.com.api automation 
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...email vprasadp8@gmail.com 
 
