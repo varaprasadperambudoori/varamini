@@ -1,0 +1,15 @@
+[INFO ] 2022-09-16 16:20:09,171 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-16 16:20:11,076 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-16 16:20:11,084 [main] Sandbox - Start testing creating program
+[INFO ] 2022-09-16 16:20:15,680 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-16 16:20:15,682 [main] Sandbox - Program name assertion passed!
+[INFO ] 2022-09-16 16:20:15,683 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-16 16:20:15,683 [main] Sandbox - Creating program test passed!
+[INFO ] 2022-09-16 16:20:15,686 [main] Sandbox - Start testing creating user
+[INFO ] 2022-09-16 16:20:16,476 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-16 16:20:16,476 [main] Sandbox - First name assertion passed!
+[INFO ] 2022-09-16 16:20:16,476 [main] Sandbox - Last name assertion passed!
+[INFO ] 2022-09-16 16:20:16,476 [main] Sandbox - Email assertion passed!
+[INFO ] 2022-09-16 16:20:16,476 [main] Sandbox - Phone assertion passed!
+[INFO ] 2022-09-16 16:20:16,477 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-16 16:20:16,477 [main] Sandbox - Creating user test passed!
