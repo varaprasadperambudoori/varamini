@@ -43,7 +43,7 @@ public class elizabethSandboxUsers {
             parameters.put("first_name", "Elizabeth");
             parameters.put("last_name", "Feng");
             parameters.put("active", true);
-            parameters.put("email", "elizabethfengabcdefghijklmnopqrs@gmail.com");      //need to change email to run
+            parameters.put("email", "elizabethfengabcdefghijklmnopqrstu@gmail.com");      //need to change email to run
             parameters.put("phone", "(123)-456-7890");
 
             log.info("Body added");
