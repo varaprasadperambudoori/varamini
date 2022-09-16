@@ -1,6 +1,6 @@
-package com.api.framework;
+package com.api.framework.pojoRequest;
 
-public class DataSetUp {
+public class UserRequest {
 
     private String first_name;
     private String last_name;
