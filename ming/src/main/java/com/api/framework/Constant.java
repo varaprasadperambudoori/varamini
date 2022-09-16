@@ -1,4 +1,4 @@
-package src.main.java.com.api.framework;
+package com.api.framework;
 
 public class Constant {
 

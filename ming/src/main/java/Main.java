@@ -1,6 +1,4 @@
-package src.main.java;
-
-import src.main.java.convertToJson.JsonConverter;
+import convertToJson.JsonConverter;
 
 public class Main {
     public static void main(String[] args) {

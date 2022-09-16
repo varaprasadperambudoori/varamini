@@ -1,4 +1,4 @@
-package src.main.java.convertToJson;
+package convertToJson;
 
 import java.io.*;
 import java.util.ArrayList;

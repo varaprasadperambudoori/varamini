@@ -4,7 +4,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.JSONObject;
-import static src.main.java.com.api.framework.Constant.*;
+import static com.api.framework.Constant.*;
 
 public class RestUtil {
 

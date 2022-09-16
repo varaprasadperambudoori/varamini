@@ -1,5 +1,3 @@
-package src.test.java;
-
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -16,8 +14,9 @@ import com.api.framework.RestUtil;
 public class Sandbox {
     public static RequestSpecification request;
     public static Response response;
-    private static Logger logger = LogManager.getLogger(Sandbox.class);
+//    private static Logger logger = LogManager.getLogger(Sandbox.class);
 
+    private static Logger logger = LogManager.getLogger(Sandbox.class);
     @BeforeClass
     public static void setup() {
         logger.info("Setting up base URI");
@@ -45,7 +44,7 @@ public class Sandbox {
     @Test
     public void testCreateUser() {
         logger.info("Start testing creating user");
-        response = RestUtil.createUser(request, "Varaprasad", "Perambudoori", "varamarqeta6637@mailinator.com", "(949)-572-4426");
+        response = RestUtil.createUser(request, "Varaprasad", "Perambudoori", "varamarqeta03701@mailinator.com", "(949)-572-4426");
         String fName = response.body().jsonPath().getString("first_name");
         String lName = response.body().jsonPath().getString("last_name");
         boolean active = response.body().jsonPath().getBoolean("active");
@@ -57,7 +56,7 @@ public class Sandbox {
         logger.info("First name assertion passed!");
         Assert.assertEquals("Perambudoori", lName);
         logger.info("Last name assertion passed!");
-        Assert.assertEquals("varamarqeta6637@mailinator.com", email);
+        Assert.assertEquals("varamarqeta03701@mailinator.com", email);
         logger.info("Email assertion passed!");
         Assert.assertEquals("(949)-572-4426", phone);
         logger.info("Phone assertion passed!");
