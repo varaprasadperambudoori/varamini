@@ -17,7 +17,7 @@ public class UserEndpoints {
     static Properties prop = new Properties();
     static Response response;
     static FileInputStream file;
-    public static Response createUser(String userPayload) throws IOException {
+    public static Response createUser(String userInformation) throws IOException {
         file = new FileInputStream("./src/main/resources/config.properties");
         prop.load(file);
         RestAssured.baseURI  = prop.getProperty("baseUrl");
@@ -27,7 +27,7 @@ public class UserEndpoints {
                 .basic(username, password)
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
-                .body(userPayload)
+                .body(userInformation)
                 .when()
                 .post(create_user);
         return response;
@@ -57,6 +57,23 @@ public class UserEndpoints {
                 .auth()
                 .basic(username, password)
                 .when().get(get_all_users);
+
+        return response;
+    }
+
+    public static Response createProgram(String programName) throws Exception {
+        file = new FileInputStream("./src/main/resources/config.properties");
+        prop.load(file);
+        RestAssured.baseURI  = prop.getProperty("baseUrl");
+        response = RestAssured
+                .given()
+                .auth()
+                .basic(username, password)
+                .contentType(ContentType.JSON)
+                .accept(ContentType.JSON)
+                .body(programName)
+                .when()
+                .post(create_program);
 
         return response;
     }
