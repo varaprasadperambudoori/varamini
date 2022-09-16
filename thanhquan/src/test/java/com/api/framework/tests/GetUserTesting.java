@@ -16,6 +16,7 @@ import java.util.Map;
 import static com.api.framework.ReportGenerator.reportGenerate;
 import static com.api.framework.ReportGenerator.reportLog;
 
+
 public class GetUserTesting {
 
     private UserRequest userRequest;
