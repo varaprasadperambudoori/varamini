@@ -27,7 +27,7 @@ public class AhmedRestAssuredUsers {
         Map<String,String> jsonMap = new HashMap<>();
         jsonMap.put("first_name", "Ahmed");
         jsonMap.put("last_name", "Damanhoury");
-        jsonMap.put("email", "Andamanhoury467@gmail.com");
+        jsonMap.put("email", "Andamanhoddry4g6e7@gmail.com");
         jsonMap.put("phone", "(123)-456-7890");
         logger.info("Filled Map with objects to inject into JsonObject");
         JSONObject obj = new JSONObject(jsonMap);
@@ -38,6 +38,10 @@ public class AhmedRestAssuredUsers {
         logger.info("Status Code = 201");
         response.prettyPrint();
         logger.info(response.prettyPrint());
+        System.out.println("-------------------");
+        Assert.assertEquals(response.path("phone"), "(123)-456-7890");
+        System.out.println();
+        Assert.assertEquals(response.path("first_name"), "Ahmed");
 
     }
 }
