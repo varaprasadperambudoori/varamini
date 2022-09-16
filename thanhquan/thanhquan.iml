@@ -12,7 +12,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: io.cucumber:datatable-dependencies:1.1.12" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.4" level="project" />
-    <orderEntry type="library" name="Maven: org.junit.jupiter:junit-jupiter-restassured.src.main.java.com.api:5.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.jupiter:junit-jupiter-src.main.java.com.api:5.9.0" level="project" />
     <orderEntry type="library" name="Maven: io.rest-assured:rest-assured:5.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.groovy:groovy:4.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.groovy:groovy-xml:4.0.1" level="project" />
