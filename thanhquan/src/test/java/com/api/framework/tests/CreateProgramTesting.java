@@ -17,10 +17,14 @@ import java.util.Map;
 import static com.api.framework.ReportGenerator.reportGenerate;
 import static com.api.framework.ReportGenerator.reportLog;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class CreateProgramTesting {
 
     private static FundingsourcesProgramRequest fundingsourcesProgramRequest;
     private static FundingsourcesProgramResponse fundingsourcesProgramResponse;
+    private static Logger log = LogManager.getLogger(CreateProgramTesting.class);
 
     @BeforeAll
     static void setUp() throws Exception {
@@ -29,22 +33,20 @@ public class CreateProgramTesting {
 
     @Test
     void createProgramTest() throws Exception {
-
+        String programName = "Program Mini 02 Testing";
         fundingsourcesProgramRequest = new FundingsourcesProgramRequest();
-        fundingsourcesProgramRequest.setProgramName("Program Mini 02 Testing");
-
+        fundingsourcesProgramRequest.setProgramName(programName);
+        log.info("Set program name: " + programName);
         Map<String, Object> bodyParams = new HashMap<String, Object>();
         bodyParams.put("name", fundingsourcesProgramRequest.getProgramName());
-
         String payload = new Gson().toJson(bodyParams);
+        log.info("Set request data: " + payload);
         Response response= UserEndpoints.createProgram(payload);
-
+        log.info("Creating program...!!!");
         fundingsourcesProgramResponse = response.getBody().as(FundingsourcesProgramResponse.class);
-
         // Assertion
         Assertions.assertEquals(201,response.statusCode());
-        Assertions.assertEquals("Program Mini 02 Testing", fundingsourcesProgramResponse.getName());
-
+        Assertions.assertEquals(programName, fundingsourcesProgramResponse.getName());
         reportLog("Get All Users Testing","Status Code Response is 200");
     }
 

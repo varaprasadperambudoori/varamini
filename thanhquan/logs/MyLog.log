@@ -1,0 +1,9 @@
+[INFO ] 2022-09-16 14:44:28.636 [main] CreateProgramTesting - Set program name: Program Mini 02 Testing
+[INFO ] 2022-09-16 14:44:28.665 [main] CreateProgramTesting - Set request data: {"name":"Program Mini 02 Testing"}
+[INFO ] 2022-09-16 14:44:30.336 [main] CreateProgramTesting - Creating program...!!!
+[INFO ] 2022-09-16 14:48:40.583 [main] CreateUserTesting - ---Create User---
+[INFO ] 2022-09-16 14:48:40.585 [main] CreateUserTesting - Set first name: test05 first name
+[INFO ] 2022-09-16 14:48:40.586 [main] CreateUserTesting - Set last name: test05 last name
+[INFO ] 2022-09-16 14:48:40.586 [main] CreateUserTesting - Set active: true
+[INFO ] 2022-09-16 14:48:40.586 [main] CreateUserTesting - Set email: test05@gmail.com
+[INFO ] 2022-09-16 14:48:42.660 [main] CreateUserTesting - Setting request body: {"phone":"(123)-456-7890","last_name":"test05 last name","active":true,"first_name":"test05 first name","email":"test05@gmail.com"}
