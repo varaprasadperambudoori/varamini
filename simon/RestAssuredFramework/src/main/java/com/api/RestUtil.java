@@ -1,7 +1,6 @@
 package com.api;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -14,7 +13,10 @@ import org.json.JSONObject;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.lang.reflect.Field;
+
 import static com.api.Constants.*;
+import static com.api.JsonToPojo.*;
 public class RestUtil{
     private static final Logger LOGGER = LogManager.getLogger(RestUtil.class);
     public ObjectMapper mapper = new ObjectMapper();
@@ -55,44 +57,54 @@ public class RestUtil{
             e.printStackTrace();
         }
     }
-    public RestUtil addPayLoad(JSONObject json){
+    public RestUtil addPayLoad(JSONObject json,String endpoint){
         request.contentType(ContentType.JSON).body(json.toString());
+        makePojo(findVariableName(endpoint).toLowerCase(),json,"Req");
         return this;
     }
-    /*public void createProgram(String name){
-        JSONObject json = new JSONObject();
-        json.put("name",name);
-        Response res = request.contentType(ContentType.JSON)
-                .body(json.toString())
-                .post(CREATE_PROGRAMSOURCE);
-        //TODO set token
-        token = res.path("token");
-        System.out.println(token);
-        LOGGER.info(res.getBody().prettyPrint());
-    }
-    public void getProgramSource(String token){
-        Response res = request.get(GET_UPDATE_PROGRAMSOURCE+token);
-        LOGGER.info(res.getBody().prettyPrint());
-    }
-    public void createUser(String firstName,String lastName, String status,String email,String phoneNum){
-        JSONObject json = new JSONObject();
-        json.put("first_name",firstName);
-        json.put("last_name",lastName);
-        json.put("active",status);
-        json.put("email",email);
-        json.put("phone",phoneNum);
-        Response res = request.body(json.toString()).post(CREATE_USER);
-        LOGGER.info("Status Code: "+res.getStatusCode()+"\nPayload: "+res.getBody().prettyPrint());
-    }
-    */
     public Response postRequest(String endpoint){
         response = request.post(endpoint);
+        JSONObject resJson = new JSONObject(response.body().asString());
+        makePojo(findVariableName(endpoint).toLowerCase(),resJson,"Res");
+
         LOGGER.info("Status Code: "+response.getStatusCode()+"\nPayload: "+response.getBody().prettyPrint());
         return  response;
     }
     public void getRequest(String endpoint){
         response = request.get(endpoint);
+        JSONObject json = new JSONObject(response.body().asString());
+        makePojo(findVariableName(endpoint).toLowerCase(),json,"Res");
         LOGGER.info("Status Code: "+response.getStatusCode()+"\nPayload: "+response.getBody().prettyPrint());
 
     }
+    public String findVariableName(String value){
+        String name="";
+        for(Field fieldName: Constants.class.getDeclaredFields()){
+            try{
+                if(fieldName.get(this).equals(value)){
+                    name = fieldName.getName();
+                }
+
+            }catch (Exception e ){
+                e.printStackTrace();
+            }
+        }
+        return name;
+    }
+    public void makePojo(String endpointName, JSONObject json,String resreq){
+        File file = new File(POJO_SOURCE +POJO_FOLDER+"/"+endpointName+resreq+"Pojo.java");
+        System.out.println(POJO_SOURCE+POJO_FOLDER+endpointName+"Pojo.java");
+        if(!file.exists()){
+            System.out.println("file doesn't exist");
+            convertFromJsonObj(json,
+                    new File(POJO_SOURCE),
+                    POJO_FOLDER.replace("/","."),
+                    endpointName+resreq+"Pojo");
+            LOGGER.info("Created Pojo for Create Program Source");
+        }else{
+            LOGGER.info("Pojo found.");
+            System.out.println("Found the file!");
+        }
+    }
+
 }

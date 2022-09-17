@@ -15,6 +15,6 @@ public class Users {
         json.put("active",status);
         json.put("email",email);
         json.put("phone",phoneNum);
-        rest.addPayLoad(json).postRequest(CREATE_USER);
+        rest.addPayLoad(json,CREATEUSER).postRequest(CREATEUSER);
     }
 }
