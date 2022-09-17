@@ -1,12 +1,13 @@
 package SandboxAPITest;
 
+import com.api.Constants;
 import io.restassured.RestAssured;
 import static com.api.Constants.*;
+import static com.api.JsonToPojo.convertFromJsonObj;
+
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.JSONObject;
@@ -15,12 +16,11 @@ import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.Test;
 
-import java.io.OutputStream;
-import java.io.PrintStream;
-import java.io.PrintWriter;
-import org.apache.logging.log4j.io.IoBuilder;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
+
+import java.io.File;
+import java.lang.reflect.Field;
 
 public class SandboxTest {
     private static final Logger LOGGER= LogManager.getLogger(SandboxTest.class);
@@ -60,9 +60,11 @@ public class SandboxTest {
 
         Response res = req.header("Content-Type","application/json")
                 .body(json.toString())
-                .post(CREATE_PROGRAMSOURCE);
-        String token = res.path("token");
-        System.out.println("Token:\n"+token);
+                .post(CREATEPROGRAMSOURCE);
+
+        JSONObject responseJSON = new JSONObject(res.body().asString());
+        String name = findVariableName(CREATEPROGRAMSOURCE).toLowerCase();
+        makePojo(name,responseJSON);
         Assert.assertEquals(201,res.getStatusCode());
         LOGGER.info("Pass createProgramSource\nStatus Code : "+res.getStatusCode()
                 +" Payload: "+res.getBody().prettyPrint());
@@ -76,13 +78,13 @@ public class SandboxTest {
         RequestSpecification req = RestAssured.given()
                 .auth().basic(user,password);
 
-        Response res = req.accept(ContentType.JSON).get(GET_UPDATE_PROGRAMSOURCE+token);
+        Response res = req.accept(ContentType.JSON).get(GETPROGRAMSOURCE +token);
 
-        /*RequestSpecBuilder reqBuilder = new RequestSpecBuilder();
-        RequestSpecification req = reqBuilder.setBaseUri("https://sandbox-api.marqeta.com/v3/").log(LogDetail.ALL).build();
-
-        Response res = RestAssured.given(req).auth().basic(user,password).accept(ContentType.JSON).get("fundingsources/program/"+token);
-         */
+        JSONObject responseJSON = new JSONObject(res.body().asString());
+        makePojo(findVariableName(GETPROGRAMSOURCE).toLowerCase(),responseJSON);
+        String name = findVariableName(GETPROGRAMSOURCE).toLowerCase();
+        File file = new File(POJO_SOURCE +POJO_FOLDER+"/"+name+"Pojo.java");
+        System.out.println(POJO_SOURCE+POJO_FOLDER+name+"Pojo.java");
         Assert.assertEquals(200,res.getStatusCode());
         LOGGER.info("Pass getProgramSource\nStatus Code : "+res.getStatusCode()
                 +" Payload: "+res.getBody().prettyPrint());
@@ -104,11 +106,43 @@ public class SandboxTest {
         json.put("phone",phoneNum);
         RequestSpecification req = RestAssured.given()
                 .auth().basic(user,password);
-        Response res = req.body(json.toString()).post(CREATE_USER);
+        Response res = req.body(json.toString()).post(CREATEUSER);
+        JSONObject responseJSON = new JSONObject(res.body().asString());
+        makePojo(findVariableName(CREATEUSER).toLowerCase(),responseJSON);
         Assert.assertEquals(201,res.getStatusCode());
 
         LOGGER.info("Create User\tStatus Code: "+res.getStatusCode()
         +"\nPayload: "+res.getBody().prettyPrint());
+    }
+    public String findVariableName(String value){
+        String name="";
+        //Field[] f = Constants.class.getDeclaredFields();
+        for(Field fieldName: Constants.class.getDeclaredFields()){
+            try{
+                if(fieldName.get(this).equals(value)){
+                    name = fieldName.getName();
+                }
+
+            }catch (Exception e ){
+                e.printStackTrace();
+            }
+        }
+        return name;
+    }
+    public void makePojo(String endpointName, JSONObject json){
+        File file = new File(POJO_SOURCE +POJO_FOLDER+"/"+endpointName+"ResPojo.java");
+        System.out.println(POJO_SOURCE+POJO_FOLDER+endpointName+"ResPojo.java");
+        if(!file.exists()){
+            System.out.println("file doesn't exist");
+            convertFromJsonObj(json,
+                    new File(POJO_SOURCE),
+                    POJO_FOLDER.replace("/","."),
+                    endpointName+"ResPojo");
+            LOGGER.info("Created Pojo for Create Program Source");
+        }else{
+            LOGGER.info("Pojo found.");
+            System.out.println("Found the file!");
+        }
     }
 }
 
