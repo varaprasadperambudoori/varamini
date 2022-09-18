@@ -1,7 +1,5 @@
 package com.automation.stepdefinitions;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebDriver;
@@ -11,19 +9,7 @@ import io.cucumber.java.en.When;
 
 public class phpTravelCucumberTests {
     WebDriver driver;
-    String username = "tester.fengg-wzdw@force.com";
-    String password = "123Welcome456";
 
-    /* credentials
-    First Name: ELIZABETH
-    Last Name: TESTER
-    Job: QE
-    Phone: 123-456-7890
-    Email: tester.fengg@gmail.com
-    Username: tester.fengg-wzdw@force.com
-    Password: 123Welcome456
-    City Born: SF
-     */
     @Given("I am on salesforce login page")
     public void i_am_on_salesforce_login_page() throws InterruptedException {
 
@@ -33,19 +19,20 @@ public class phpTravelCucumberTests {
         driver.get("https://ehealthinsuranceservicesinc.my.salesforce.com");
         Thread.sleep(2000);
     }
-
-    @When("I input my credentials")
-    public void i_input_my_credentials() throws InterruptedException {
+    @When("I input my username {string} credentials")
+    public void i_input_my_username_credentials(String string) throws InterruptedException {
         driver.findElement(By.id("username")).click();
         Thread.sleep(1000);
 
-        driver.findElement(By.id("username")).sendKeys(username);
+        driver.findElement(By.id("username")).sendKeys(string);
         Thread.sleep(1000);
-
+    }
+    @When("I input my password {string} credentials")
+    public void i_input_my_password_credentials(String string) throws InterruptedException {
         driver.findElement(By.id("password")).click();
         Thread.sleep(1000);
 
-        driver.findElement(By.id("password")).sendKeys(password);
+        driver.findElement(By.id("password")).sendKeys(string);
         Thread.sleep(1000);
     }
 
