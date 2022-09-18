@@ -1,4 +1,4 @@
-package com.framework.TxtJSON;
+package com.json.TxtJson;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
