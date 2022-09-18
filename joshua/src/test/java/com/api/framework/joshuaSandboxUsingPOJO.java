@@ -1,46 +1,45 @@
 package com.api.framework;
 
-
-import io.restassured.RestAssured;
+import com.api.framework.pojoRequest.sandboxProgramRequest;
+import com.api.framework.pojoRequest.sandboxUsersRequest;
+import com.api.framework.pojoResponse.sandboxProgramResponse;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.json.JSONException;
 import org.json.simple.JSONObject;
-import org.junit.Before;
 import org.junit.Test;
-
 import org.skyscreamer.jsonassert.JSONAssert;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.json.JSONException;
 
 import static io.restassured.RestAssured.given;
 
-
-public class joshuaSandboxAPIRestAssured {
-
-
+public class joshuaSandboxUsingPOJO {
 
     public static Logger log = LogManager.getLogger();
-    @Test
-    public void sandBoxProgramPost() throws JSONException {
-        log.info("POST FOR SANDBOX PROGRAM STARTED");
-        log.info("Made JSON object to hold the body for program post method");
-        JSONObject par = new JSONObject();
+    public static sandboxProgramRequest sandProgramReq = new sandboxProgramRequest();
 
-        par.put("name", "Program Mini");
+    public static sandboxUsersRequest sandUserReq = new sandboxUsersRequest();
+
+    @Test
+    public void sandBoxProgramPOJO() throws JSONException{
+        log.info("POST FOR SANDBOX PROGRAM using POJO STARTED");
+
+        sandProgramReq.setName("Program Mini");
+
+        JSONObject par = new JSONObject();
+        par.put("name", sandProgramReq.getName());
 
         log.info("Made request to Sandbox API with program post method");
         Response res = given()
-                    .auth()
-                    .preemptive()
-                    .basic(Constant.username, Constant.password)
-                    .contentType(ContentType.JSON)
-                    .body(par.toString())
+                .auth()
+                .preemptive()
+                .basic(Constant.username, Constant.password)
+                .contentType(ContentType.JSON)
+                .body(par.toString())
                 .when()
-                    .post(Constant.Program);
+                .post(Constant.Program);
 
         log.info("Adding assert to check post");
 
@@ -54,27 +53,28 @@ public class joshuaSandboxAPIRestAssured {
         log.info("print body of post method to log");
         log.info(res.prettyPrint());
 
-        log.info("print body of the post method to console");
-        System.out.println(res.prettyPrint());
-
-
         log.info("POST FOR SANDBOX PROGRAM ENDED");
+
     }
 
     @Test
-    public void sandBoxUsersPost() throws JSONException{
-
-        log.info("POST FOR SANDBOX USERS STARTED");
+    public void sandBoxUsersPost() throws JSONException {
+        log.info("POST FOR SANDBOX USERS USING POJO STARTED");
 
         log.info("Made JSON object to hold the body for users post method");
         JSONObject par = new JSONObject();
 
-        par.put("first_name", "Joshua");
-        par.put("last_name", "Cabrera");
-        par.put( "active", true);
-        par.put("email", "jcabrera1931@mailinator.com");
-        par.put( "phone","(123)-456-7890");
+        sandUserReq.setFirstName("Joshua");
+        sandUserReq.setLastName("Cabrera");
+        sandUserReq.setActive(true);
+        sandUserReq.setEmail("jcabrera0912@mailinator.com");
+        sandUserReq.setPhone("(123)-456-7890");
 
+        par.put("first_name", sandUserReq.getFirstName());
+        par.put("last_name", sandUserReq.getLastName());
+        par.put( "active", sandUserReq.getActive());
+        par.put("email", sandUserReq.getEmail());
+        par.put( "phone",sandUserReq.getPhone());
 
         log.info("Made request to Sandbox API with users post method");
         Response res = given()
@@ -90,9 +90,6 @@ public class joshuaSandboxAPIRestAssured {
         log.info("print body of post method to log");
         log.info(res.prettyPrint());
 
-        log.info("print body of the post method to console");
-        System.out.println(res.prettyPrint());
-
         log.info("Adding assert to check post");
 
         int statusCode = res.getStatusCode();
@@ -101,12 +98,13 @@ public class joshuaSandboxAPIRestAssured {
         String output = res.prettyPrint();
 
         JSONAssert.assertEquals("{first_name:\"Joshua\"}", output, false);
+        JSONAssert.assertEquals("{last_name:\"Cabrera\"}", output, false);
+        JSONAssert.assertEquals("{email:\"jcabrera0912@mailinator.com\"}", output, false);
+        JSONAssert.assertEquals("{phone:\"(123)-456-7890\"}", output, false);
 
         log.info("print body of the post method to console");
         System.out.println(res.prettyPrint());
 
         log.info("POST FOR SANDBOX USERS ENDED");
     }
-
-
 }
