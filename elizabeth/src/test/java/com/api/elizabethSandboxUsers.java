@@ -1,5 +1,6 @@
 package com.api;
 
+import com.api.object.Header.SandboxHeaders;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.http.Method;
@@ -35,7 +36,7 @@ public class elizabethSandboxUsers {
             RestAssured.baseURI = apiConstants.sandBaseURL;
             log.info("Navigate BaseURI");
 
-            RequestSpecification httpRequest = RestAssured.given().auth().basic("c598a04a-5c04-4dad-a5b5-d5dfc66e5feb", "5f791fce-154f-4d7f-ba7a-a4b44212a146");
+            RequestSpecification httpRequest = RestAssured.given().auth().basic(apiConstants.username, apiConstants.password);
             log.info("Basic authentication provided");
 
             JSONObject parameters = new JSONObject();
@@ -43,12 +44,16 @@ public class elizabethSandboxUsers {
             parameters.put("first_name", "Elizabeth");
             parameters.put("last_name", "Feng");
             parameters.put("active", true);
-            parameters.put("email", "elizabethfengabcdefghijklmnopqrstu@gmail.com");      //need to change email to run
+            parameters.put("email", "elizabethfengabcdefghijklmnopqrstuvwxy@gmail.com");      //need to change email to run
             parameters.put("phone", "(123)-456-7890");
 
             log.info("Body added");
 
-            httpRequest.header("Content-Type", "application/json");
+            SandboxHeaders sandboxHeader = new SandboxHeaders();
+            sandboxHeader.setSandboxHeaderKey("Content-Type");
+            sandboxHeader.setSandboxHeaderValue("application/json");
+
+            httpRequest.header(sandboxHeader.getSandboxHeaderKey(), sandboxHeader.getSandboxHeaderValue());
 
             httpRequest.body(parameters.toString());
 
