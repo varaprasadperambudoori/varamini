@@ -56,6 +56,6 @@ public class JiayueConvertTxtToJson {
 
     }
     public static void main(String[] arr) throws Exception {
-        convert("src/main/resources/jiayueInputText");
+        convert("jiayue/src/main/resources/jiayueInputText");
     }
 }

@@ -11,7 +11,7 @@ public class Constant {
     private List<String> list;
     public Constant() throws FileNotFoundException {
         list = new LinkedList<>();
-        Scanner scan = new Scanner(new File("/Users/jiayue/Downloads/varamini/jiayue/src/main/java/com/api/utility/baseURLs"));
+        Scanner scan = new Scanner(new File("jiayue/src/main/java/com/api/utility/baseURLs"));
         while (scan.hasNextLine())
             list.add(scan.nextLine());
     }

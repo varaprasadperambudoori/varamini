@@ -11,6 +11,7 @@
       <set>
         <option value="$PROJECT_DIR$/elizabeth/log/pom.xml" />
         <option value="$PROJECT_DIR$/elizabeth/src/pom.xml" />
+        <option value="$PROJECT_DIR$/jiayue-bdd/pom.xml" />
       </set>
     </option>
   </component>

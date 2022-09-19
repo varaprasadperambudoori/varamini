@@ -27,7 +27,7 @@ public class BasicAuth {
         RestAssured.baseURI = fileContant.get(1);
 
         JSONParser parser = new JSONParser();
-        JSONArray requests = (JSONArray) parser.parse(new FileReader("/Users/jiayue/Downloads/varamini/jiayue/src/main/resources/request.json"));
+        JSONArray requests = (JSONArray) parser.parse(new FileReader("jiayue/src/main/resources/request.json "));
         JSONObject request = (JSONObject) requests.get(0);
 
 
