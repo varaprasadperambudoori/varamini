@@ -1,15 +1,386 @@
-[INFO ] 2022-09-16 16:20:09,171 [main] Sandbox - Setting up base URI
-[INFO ] 2022-09-16 16:20:11,076 [main] Sandbox - Set up successfully!
-[INFO ] 2022-09-16 16:20:11,084 [main] Sandbox - Start testing creating program
-[INFO ] 2022-09-16 16:20:15,680 [main] Sandbox - Status code assertion passed!
-[INFO ] 2022-09-16 16:20:15,682 [main] Sandbox - Program name assertion passed!
-[INFO ] 2022-09-16 16:20:15,683 [main] Sandbox - Active status assertion passed!
-[INFO ] 2022-09-16 16:20:15,683 [main] Sandbox - Creating program test passed!
-[INFO ] 2022-09-16 16:20:15,686 [main] Sandbox - Start testing creating user
-[INFO ] 2022-09-16 16:20:16,476 [main] Sandbox - Status code assertion passed!
-[INFO ] 2022-09-16 16:20:16,476 [main] Sandbox - First name assertion passed!
-[INFO ] 2022-09-16 16:20:16,476 [main] Sandbox - Last name assertion passed!
-[INFO ] 2022-09-16 16:20:16,476 [main] Sandbox - Email assertion passed!
-[INFO ] 2022-09-16 16:20:16,476 [main] Sandbox - Phone assertion passed!
-[INFO ] 2022-09-16 16:20:16,477 [main] Sandbox - Active status assertion passed!
-[INFO ] 2022-09-16 16:20:16,477 [main] Sandbox - Creating user test passed!
+[INFO ] 2022-09-16 17:15:06,595 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-16 17:15:07,798 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-16 17:15:07,803 [main] Sandbox - Start testing creating program
+[INFO ] 2022-09-16 17:15:11,120 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-16 17:15:11,120 [main] Sandbox - Program name assertion passed!
+[INFO ] 2022-09-16 17:15:11,120 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-16 17:15:11,121 [main] Sandbox - Creating program test passed!
+[INFO ] 2022-09-16 17:15:11,122 [main] Sandbox - Start testing creating user
+[INFO ] 2022-09-16 17:15:12,515 [main] Sandbox - {
+    "token": "f0d7da93-e092-4679-a9c7-1211fdf318d4",
+    "active": true,
+    "first_name": "Varaprasad",
+    "last_name": "Perambudoori",
+    "email": "varamarqeta6870@mailinator.com",
+    "phone": "(949)-572-4426",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-17T00:15:12Z",
+    "last_modified_time": "2022-09-17T00:15:12Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-16 17:15:12,661 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-16 17:15:12,662 [main] Sandbox - First name assertion passed!
+[INFO ] 2022-09-16 17:15:12,662 [main] Sandbox - Last name assertion passed!
+[INFO ] 2022-09-16 17:15:12,662 [main] Sandbox - Email assertion passed!
+[INFO ] 2022-09-16 17:15:12,662 [main] Sandbox - Phone assertion passed!
+[INFO ] 2022-09-16 17:15:12,662 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-16 17:15:12,663 [main] Sandbox - Creating user test passed!
+[INFO ] 2022-09-17 15:43:40,887 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-17 15:43:42,894 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-17 15:43:42,898 [main] Sandbox - Start testing creating program
+[INFO ] 2022-09-17 15:43:47,747 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-17 15:43:47,748 [main] Sandbox - Program name assertion passed!
+[INFO ] 2022-09-17 15:43:47,748 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-17 15:43:47,749 [main] Sandbox - Creating program test passed!
+[INFO ] 2022-09-17 15:43:47,761 [main] Sandbox - Start testing creating user
+[INFO ] 2022-09-17 15:43:48,776 [main] Sandbox - {
+    "token": "a8ade50a-eb0e-4372-a986-e6c1d76f53f4",
+    "active": true,
+    "first_name": "Varaprasad",
+    "last_name": "Perambudoori",
+    "email": "varamarqeta2333@mailinator.com",
+    "phone": "(949)-572-4426",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-17T22:43:48Z",
+    "last_modified_time": "2022-09-17T22:43:48Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-17 15:43:48,898 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-17 15:43:48,898 [main] Sandbox - First name assertion passed!
+[INFO ] 2022-09-17 15:43:48,898 [main] Sandbox - Last name assertion passed!
+[INFO ] 2022-09-17 15:43:48,899 [main] Sandbox - Email assertion passed!
+[INFO ] 2022-09-17 15:43:48,899 [main] Sandbox - Phone assertion passed!
+[INFO ] 2022-09-17 15:43:48,899 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-17 15:43:48,899 [main] Sandbox - Creating user test passed!
+[INFO ] 2022-09-17 15:59:37,996 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-17 15:59:39,484 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-17 15:59:39,487 [main] Sandbox - Start testing creating program
+[INFO ] 2022-09-17 15:59:43,370 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-17 15:59:43,371 [main] Sandbox - Program name assertion passed!
+[INFO ] 2022-09-17 15:59:43,371 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-17 15:59:43,371 [main] Sandbox - Creating program test passed!
+[INFO ] 2022-09-17 15:59:43,373 [main] Sandbox - Start testing creating user
+[INFO ] 2022-09-17 15:59:44,401 [main] Sandbox - {
+    "token": "4d708afc-a50a-4e5c-8b07-ebb72f86cf30",
+    "active": true,
+    "first_name": "Varaprasad",
+    "last_name": "Perambudoori",
+    "email": "varamarqeta23336@mailinator.com",
+    "phone": "(949)-572-4426",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-17T22:59:44Z",
+    "last_modified_time": "2022-09-17T22:59:44Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-17 15:59:44,534 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-17 15:59:44,535 [main] Sandbox - First name assertion passed!
+[INFO ] 2022-09-17 15:59:44,535 [main] Sandbox - Last name assertion passed!
+[INFO ] 2022-09-17 15:59:44,535 [main] Sandbox - Email assertion passed!
+[INFO ] 2022-09-17 15:59:44,535 [main] Sandbox - Phone assertion passed!
+[INFO ] 2022-09-17 15:59:44,536 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-17 15:59:44,536 [main] Sandbox - Creating user test passed!
+[INFO ] 2022-09-17 16:14:30,666 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-17 16:14:32,508 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-17 16:14:32,513 [main] Sandbox - Start testing creating program
+[INFO ] 2022-09-17 16:14:36,360 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-17 16:14:36,360 [main] Sandbox - Program name assertion passed!
+[INFO ] 2022-09-17 16:14:36,360 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-17 16:14:36,361 [main] Sandbox - Creating program test passed!
+[INFO ] 2022-09-17 16:14:36,362 [main] Sandbox - Start testing creating user
+[INFO ] 2022-09-17 16:14:37,226 [main] Sandbox - {
+    "token": "b188844d-e16c-46a5-9201-65b11fef40cd",
+    "active": true,
+    "first_name": "Varaprasad",
+    "last_name": "Perambudoori",
+    "email": "varamarqeta2336@mailinator.com",
+    "phone": "(949)-572-4426",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-17T23:14:36Z",
+    "last_modified_time": "2022-09-17T23:14:36Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-17 16:14:37,377 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-17 16:14:37,377 [main] Sandbox - First name assertion passed!
+[INFO ] 2022-09-17 16:14:37,377 [main] Sandbox - Last name assertion passed!
+[INFO ] 2022-09-17 16:14:37,377 [main] Sandbox - Email assertion passed!
+[INFO ] 2022-09-17 16:14:37,378 [main] Sandbox - Phone assertion passed!
+[INFO ] 2022-09-17 16:14:37,378 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-17 16:14:37,378 [main] Sandbox - Creating user test passed!
+[INFO ] 2022-09-17 17:35:04,990 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-17 17:35:06,258 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-17 17:35:06,264 [main] Sandbox - Start testing getting users
+[INFO ] 2022-09-17 17:35:08,636 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-17 17:35:08,636 [main] Sandbox - Grtting users test passed!
+
+
+[INFO ] 2022-09-17 17:35:08,638 [main] Sandbox - ------Start testing getting user by name------
+[INFO ] 2022-09-17 17:35:10,200 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-17 17:35:10,200 [main] Sandbox - First name assertion passed!
+[INFO ] 2022-09-17 17:35:10,201 [main] Sandbox - Last name assertion passed!
+[INFO ] 2022-09-17 17:35:10,201 [main] Sandbox - Getting user by name passed!
+
+
+[INFO ] 2022-09-17 17:35:10,201 [main] Sandbox - ------Start testing creating program------
+[INFO ] 2022-09-17 17:35:11,058 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-17 17:35:11,058 [main] Sandbox - Program name assertion passed!
+[INFO ] 2022-09-17 17:35:11,058 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-17 17:35:11,058 [main] Sandbox - Creating program test passed!
+
+
+[INFO ] 2022-09-17 17:35:11,059 [main] Sandbox - ------Start testing creating user------
+[INFO ] 2022-09-17 17:35:11,691 [main] Sandbox - {
+    "token": "91378406-5545-442d-a515-210dbd312ce8",
+    "active": true,
+    "first_name": "Varaprasad",
+    "last_name": "Perambudoori",
+    "email": "varamarqeta121103936@mailinator.com",
+    "phone": "(949)-572-4426",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-18T00:35:11Z",
+    "last_modified_time": "2022-09-18T00:35:11Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-17 17:35:11,796 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-17 17:35:11,796 [main] Sandbox - First name assertion passed!
+[INFO ] 2022-09-17 17:35:11,796 [main] Sandbox - Last name assertion passed!
+[INFO ] 2022-09-17 17:35:11,797 [main] Sandbox - Email assertion passed!
+[INFO ] 2022-09-17 17:35:11,797 [main] Sandbox - Phone assertion passed!
+[INFO ] 2022-09-17 17:35:11,797 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-17 17:35:11,797 [main] Sandbox - Creating user test passed!
+
+
+[INFO ] 2022-09-18 14:49:02,054 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 14:49:03,473 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 14:49:44,352 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 14:49:45,671 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 14:54:15,921 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 14:54:17,262 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:09:09,351 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:09:10,765 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:12:20,065 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:12:21,373 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:20:41,007 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:20:42,286 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:22:00,272 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:22:02,348 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:23:08,968 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:23:10,279 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:26:45,585 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:26:46,826 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:33:38,888 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:33:40,084 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:34:26,014 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:34:27,379 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:35:20,703 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:35:22,080 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:39:04,983 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:39:06,213 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:47:17,562 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:47:19,155 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:48:27,912 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:48:29,255 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:49:49,082 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:49:50,305 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:49:50,308 [main] Sandbox - Start testing getting users
+[INFO ] 2022-09-18 15:49:52,147 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 15:49:52,147 [main] Sandbox - Grtting users test passed!
+
+
+[INFO ] 2022-09-18 15:49:52,149 [main] Sandbox - ------Start testing getting user by name------
+[INFO ] 2022-09-18 15:49:52,703 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 15:49:54,167 [main] Sandbox - First name assertion passed!
+[INFO ] 2022-09-18 15:49:54,168 [main] Sandbox - Last name assertion passed!
+[INFO ] 2022-09-18 15:49:54,168 [main] Sandbox - Getting user by name passed!
+
+
+[INFO ] 2022-09-18 15:49:54,172 [main] Sandbox - ------Start testing creating program------
+[INFO ] 2022-09-18 15:49:56,210 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 15:49:56,210 [main] Sandbox - Program name assertion passed!
+[INFO ] 2022-09-18 15:49:56,211 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-18 15:49:56,211 [main] Sandbox - Creating program test passed!
+
+
+[INFO ] 2022-09-18 15:49:56,211 [main] Sandbox - ------Start testing creating user------
+[INFO ] 2022-09-18 15:49:57,211 [main] Sandbox - {
+    "error_code": "400037",
+    "error_message": "Malformed JSON request received: Unrecognized field \"created_time\" (class com.marqeta.mqpay.api.v3.models.UserCardHolderModel), not marked as ignorable (33 known properties: \"notes\", \"identifications\", \"active\", \"ssn\", \"state\", \"last_name\", \"country\", \"password\", \"ip_address\", \"honorific\", \"parent_token\", \"city\", \"phone\", \"metadata\", \"id_card_expiration_date\", \"id_card_number\", \"middle_name\", \"account_holder_group_token\", \"token\", \"first_name\", \"nationality\", \"address1\", \"address2\", \"gender\", \"passport_expiration_date\", \"passport_number\", \"email\", \"zip\", \"uses_parent_account\", \"birth_date\", \"company\", \"corporate_card_holder\", \"postal_code\"]) at line: 10 column: 24"
+}
+[INFO ] 2022-09-18 15:57:21,572 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:57:23,861 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:57:23,918 [main] Sandbox - ------Start testing creating user------
+[INFO ] 2022-09-18 15:57:28,445 [main] Sandbox - {
+    "error_code": "400037",
+    "error_message": "Malformed JSON request received: Unrecognized field \"last_modified_time\" (class com.marqeta.mqpay.api.v3.models.UserCardHolderModel), not marked as ignorable (33 known properties: \"notes\", \"identifications\", \"active\", \"ssn\", \"state\", \"last_name\", \"country\", \"password\", \"ip_address\", \"honorific\", \"parent_token\", \"city\", \"phone\", \"metadata\", \"id_card_expiration_date\", \"id_card_number\", \"middle_name\", \"account_holder_group_token\", \"token\", \"first_name\", \"nationality\", \"address1\", \"address2\", \"gender\", \"passport_expiration_date\", \"passport_number\", \"email\", \"zip\", \"uses_parent_account\", \"birth_date\", \"company\", \"corporate_card_holder\", \"postal_code\"]) at line: 9 column: 30"
+}
+[INFO ] 2022-09-18 15:58:44,387 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 15:58:46,546 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 15:58:46,552 [main] Sandbox - ------Start testing creating user------
+[INFO ] 2022-09-18 15:58:50,502 [main] Sandbox - {
+    "token": "3e1bc388-246e-4b4b-acbf-58039ef01caf",
+    "active": true,
+    "first_name": "Varaprasad",
+    "last_name": "Perambudoori",
+    "email": "varamarqeta1231103936@mailinator.com",
+    "phone": "(949)-572-4426",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-18T22:58:49Z",
+    "last_modified_time": "2022-09-18T22:58:49Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-18 15:58:53,698 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 15:58:53,699 [main] Sandbox - First name assertion passed!
+[INFO ] 2022-09-18 15:58:53,702 [main] Sandbox - Last name assertion passed!
+[INFO ] 2022-09-18 15:58:53,703 [main] Sandbox - Email assertion passed!
+[INFO ] 2022-09-18 15:58:53,705 [main] Sandbox - Phone assertion passed!
+[INFO ] 2022-09-18 15:58:53,705 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-18 15:58:53,706 [main] Sandbox - Creating user test passed!
+
+
+[INFO ] 2022-09-18 16:05:51,847 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 16:05:53,067 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 16:05:53,072 [main] Sandbox - Start testing getting users
+[INFO ] 2022-09-18 16:05:56,003 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 16:05:56,004 [main] Sandbox - Grtting users test passed!
+
+
+[INFO ] 2022-09-18 16:05:56,009 [main] Sandbox - ------Start testing getting user by name------
+[INFO ] 2022-09-18 16:05:56,781 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 16:05:57,846 [main] Sandbox - First name assertion passed!
+[INFO ] 2022-09-18 16:05:57,847 [main] Sandbox - Last name assertion passed!
+[INFO ] 2022-09-18 16:05:57,847 [main] Sandbox - Getting user by name passed!
+
+
+[INFO ] 2022-09-18 16:05:57,848 [main] Sandbox - ------Start testing creating program------
+[INFO ] 2022-09-18 16:05:58,757 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 16:05:58,758 [main] Sandbox - Program name assertion passed!
+[INFO ] 2022-09-18 16:05:58,758 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-18 16:05:58,758 [main] Sandbox - Creating program test passed!
+
+
+[INFO ] 2022-09-18 16:05:58,759 [main] Sandbox - ------Start testing creating user------
+[INFO ] 2022-09-18 16:05:59,887 [main] Sandbox - {
+    "token": "e6089997-ab90-4142-91bc-510a1bd4f4a0",
+    "active": false,
+    "first_name": "Varaprasad",
+    "last_name": "Perambudoori",
+    "email": "varamarqeta1233936@mailinator.com",
+    "phone": "(949)-572-4426",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-18T23:05:59Z",
+    "last_modified_time": "2022-09-18T23:05:59Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "UNVERIFIED"
+}
+[INFO ] 2022-09-18 16:05:59,997 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 16:05:59,998 [main] Sandbox - First name assertion passed!
+[INFO ] 2022-09-18 16:05:59,998 [main] Sandbox - Last name assertion passed!
+[INFO ] 2022-09-18 16:05:59,998 [main] Sandbox - Email assertion passed!
+[INFO ] 2022-09-18 16:05:59,999 [main] Sandbox - Phone assertion passed!
+[INFO ] 2022-09-18 16:07:56,804 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 16:07:58,153 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 16:07:58,156 [main] Sandbox - Start testing getting users
+[INFO ] 2022-09-18 16:08:00,210 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 16:08:00,210 [main] Sandbox - Grtting users test passed!
+
+
+[INFO ] 2022-09-18 16:08:00,212 [main] Sandbox - ------Start testing getting user by name------
+[INFO ] 2022-09-18 16:08:01,003 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 16:08:02,041 [main] Sandbox - First name assertion passed!
+[INFO ] 2022-09-18 16:08:02,041 [main] Sandbox - Last name assertion passed!
+[INFO ] 2022-09-18 16:08:02,041 [main] Sandbox - Getting user by name passed!
+
+
+[INFO ] 2022-09-18 16:08:02,042 [main] Sandbox - ------Start testing creating program------
+[INFO ] 2022-09-18 16:08:02,694 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 16:08:02,695 [main] Sandbox - Program name assertion passed!
+[INFO ] 2022-09-18 16:08:02,695 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-18 16:08:02,695 [main] Sandbox - Creating program test passed!
+
+
+[INFO ] 2022-09-18 16:08:02,696 [main] Sandbox - ------Start testing creating user------
+[INFO ] 2022-09-18 16:08:03,789 [main] Sandbox - {
+    "error_message": "A card holder with the same email already exist",
+    "error_code": "400057"
+}
+[INFO ] 2022-09-18 16:08:42,477 [main] Sandbox - Setting up base URI
+[INFO ] 2022-09-18 16:08:43,765 [main] Sandbox - Set up successfully!
+[INFO ] 2022-09-18 16:08:43,770 [main] Sandbox - Start testing getting users
+[INFO ] 2022-09-18 16:08:46,021 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 16:08:46,021 [main] Sandbox - Grtting users test passed!
+
+
+[INFO ] 2022-09-18 16:08:46,023 [main] Sandbox - ------Start testing getting user by name------
+[INFO ] 2022-09-18 16:08:46,911 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 16:08:48,005 [main] Sandbox - First name assertion passed!
+[INFO ] 2022-09-18 16:08:48,005 [main] Sandbox - Last name assertion passed!
+[INFO ] 2022-09-18 16:08:48,005 [main] Sandbox - Getting user by name passed!
+
+
+[INFO ] 2022-09-18 16:08:48,006 [main] Sandbox - ------Start testing creating program------
+[INFO ] 2022-09-18 16:08:48,601 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 16:08:48,601 [main] Sandbox - Program name assertion passed!
+[INFO ] 2022-09-18 16:08:48,601 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-18 16:08:48,602 [main] Sandbox - Creating program test passed!
+
+
+[INFO ] 2022-09-18 16:08:48,602 [main] Sandbox - ------Start testing creating user------
+[INFO ] 2022-09-18 16:08:49,679 [main] Sandbox - {
+    "token": "b90b90e6-d934-4bb0-8a9f-dc03de7462ad",
+    "active": true,
+    "first_name": "Varaprasad",
+    "last_name": "Perambudoori",
+    "email": "varamarqeta1236@mailinator.com",
+    "phone": "(949)-572-4426",
+    "uses_parent_account": false,
+    "corporate_card_holder": false,
+    "created_time": "2022-09-18T23:08:49Z",
+    "last_modified_time": "2022-09-18T23:08:49Z",
+    "metadata": {
+        
+    },
+    "account_holder_group_token": "DEFAULT_AHG",
+    "status": "ACTIVE"
+}
+[INFO ] 2022-09-18 16:08:49,817 [main] Sandbox - Status code assertion passed!
+[INFO ] 2022-09-18 16:08:49,818 [main] Sandbox - First name assertion passed!
+[INFO ] 2022-09-18 16:08:49,818 [main] Sandbox - Last name assertion passed!
+[INFO ] 2022-09-18 16:08:49,818 [main] Sandbox - Email assertion passed!
+[INFO ] 2022-09-18 16:08:49,818 [main] Sandbox - Phone assertion passed!
+[INFO ] 2022-09-18 16:08:49,818 [main] Sandbox - Active status assertion passed!
+[INFO ] 2022-09-18 16:08:49,818 [main] Sandbox - Creating user test passed!
+
+
