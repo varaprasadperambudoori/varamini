@@ -74,7 +74,7 @@ public class JsonConverter {
         return result.toString();
     }
 
-    private static String formatJson(String json) {
+    public static String formatJson(String json) {
         StringBuffer result = new StringBuffer();
         int length = json.length();
         int number = 0;
