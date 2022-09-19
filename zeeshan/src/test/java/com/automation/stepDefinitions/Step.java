@@ -1,7 +1,5 @@
 package com.automation.stepDefinitions;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebDriver;
@@ -11,18 +9,18 @@ import io.cucumber.java.en.When;
 
 public class Step {
     WebDriver driver;
-    String username = "tester.fengg-wzdw@force.com";
-    String password = "123Welcome456";
+    String username = "zeeshan.tester@force.com";
+    String password = "Password1234";
 
     /* credentials
-    First Name: ELIZABETH
+    First Name: ZEESHAN
     Last Name: TESTER
     Job: QE
     Phone: 123-456-7890
-    Email: tester.fengg@gmail.com
-    Username: tester.fengg-wzdw@force.com
-    Password: 123Welcome456
-    City Born: SF
+    Email: zee.mohamedy+salesg@gmail.com
+    Username: zeeshan.tester@force.com
+    Password: Password1234
+    City Born: Atl
      */
     @Given("I am on salesforce login page")
     public void i_am_on_salesforce_login_page() throws InterruptedException {
